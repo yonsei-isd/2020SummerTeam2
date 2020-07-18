@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Smiley Smell</title>
+<title>YonHeePrototype</title>
 <style title="Twine CSS">@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}@-webkit-keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@-webkit-keyframes rumble{50%{-webkit-transform:translateY(-0.2em);transform:translateY(-0.2em)}}@keyframes rumble{50%{-webkit-transform:translateY(-0.2em);transform:translateY(-0.2em)}}@-webkit-keyframes shudder{50%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@keyframes shudder{50%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@-webkit-keyframes box-flash{0%{background-color:white;color:white}}@keyframes box-flash{0%{background-color:white;color:white}}@-webkit-keyframes pulse{0%{-webkit-transform:scale(0, 0);transform:scale(0, 0)}20%{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}40%{-webkit-transform:scale(0.9, 0.9);transform:scale(0.9, 0.9)}60%{-webkit-transform:scale(1.05, 1.05);transform:scale(1.05, 1.05)}80%{-webkit-transform:scale(0.925, 0.925);transform:scale(0.925, 0.925)}to{-webkit-transform:scale(1, 1);transform:scale(1, 1)}}@keyframes pulse{0%{-webkit-transform:scale(0, 0);transform:scale(0, 0)}20%{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}40%{-webkit-transform:scale(0.9, 0.9);transform:scale(0.9, 0.9)}60%{-webkit-transform:scale(1.05, 1.05);transform:scale(1.05, 1.05)}80%{-webkit-transform:scale(0.925, 0.925);transform:scale(0.925, 0.925)}to{-webkit-transform:scale(1, 1);transform:scale(1, 1)}}@-webkit-keyframes shudder-in{0%, to{-webkit-transform:translateX(0em);transform:translateX(0em)}5%, 25%, 45%{-webkit-transform:translateX(-1em);transform:translateX(-1em)}15%, 35%, 55%{-webkit-transform:translateX(1em);transform:translateX(1em)}65%{-webkit-transform:translateX(-0.6em);transform:translateX(-0.6em)}75%{-webkit-transform:translateX(0.6em);transform:translateX(0.6em)}85%{-webkit-transform:translateX(-0.2em);transform:translateX(-0.2em)}95%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@keyframes shudder-in{0%, to{-webkit-transform:translateX(0em);transform:translateX(0em)}5%, 25%, 45%{-webkit-transform:translateX(-1em);transform:translateX(-1em)}15%, 35%, 55%{-webkit-transform:translateX(1em);transform:translateX(1em)}65%{-webkit-transform:translateX(-0.6em);transform:translateX(-0.6em)}75%{-webkit-transform:translateX(0.6em);transform:translateX(0.6em)}85%{-webkit-transform:translateX(-0.2em);transform:translateX(-0.2em)}95%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@-webkit-keyframes rumble-in{0%, to{-webkit-transform:translateY(0em);transform:translateY(0em)}5%, 25%, 45%{-webkit-transform:translateY(-1em);transform:translateY(-1em)}15%, 35%, 55%{-webkit-transform:translateY(1em);transform:translateY(1em)}65%{-webkit-transform:translateY(-0.6em);transform:translateY(-0.6em)}75%{-webkit-transform:translateY(0.6em);transform:translateY(0.6em)}85%{-webkit-transform:translateY(-0.2em);transform:translateY(-0.2em)}95%{-webkit-transform:translateY(0.2em);transform:translateY(0.2em)}}@keyframes rumble-in{0%, to{-webkit-transform:translateY(0em);transform:translateY(0em)}5%, 25%, 45%{-webkit-transform:translateY(-1em);transform:translateY(-1em)}15%, 35%, 55%{-webkit-transform:translateY(1em);transform:translateY(1em)}65%{-webkit-transform:translateY(-0.6em);transform:translateY(-0.6em)}75%{-webkit-transform:translateY(0.6em);transform:translateY(0.6em)}85%{-webkit-transform:translateY(-0.2em);transform:translateY(-0.2em)}95%{-webkit-transform:translateY(0.2em);transform:translateY(0.2em)}}@-webkit-keyframes slide-right{0%{-webkit-transform:translateX(-100vw);transform:translateX(-100vw)}}@keyframes slide-right{0%{-webkit-transform:translateX(-100vw);transform:translateX(-100vw)}}@-webkit-keyframes slide-left{0%{-webkit-transform:translateX(100vw);transform:translateX(100vw)}}@keyframes slide-left{0%{-webkit-transform:translateX(100vw);transform:translateX(100vw)}}@-webkit-keyframes slide-up{0%{-webkit-transform:translateY(100vh);transform:translateY(100vh)}}@keyframes slide-up{0%{-webkit-transform:translateY(100vh);transform:translateY(100vh)}}@-webkit-keyframes slide-down{0%{-webkit-transform:translateY(-100vh);transform:translateY(-100vh)}}@keyframes slide-down{0%{-webkit-transform:translateY(-100vh);transform:translateY(-100vh)}}@-webkit-keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:0.2}64%{opacity:0.4}78%{opacity:0.6}87%{opacity:0.8}92%, to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:0.2}64%{opacity:0.4}78%{opacity:0.6}87%{opacity:0.8}92%, to{opacity:1}}.debug-mode tw-expression[type=hookref]{background-color:rgba(115,123,140,0.15)}.debug-mode tw-expression[type=hookref]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"?" attr(name)}.debug-mode tw-expression[type=variable]{background-color:rgba(140,128,115,0.15)}.debug-mode tw-expression[type=variable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]{background-color:rgba(140,128,115,0.15)}.debug-mode tw-expression[type=tempVariable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[type=macro]:nth-of-type(4n+0){background-color:rgba(136,153,102,0.15)}.debug-mode tw-expression[type=macro]:nth-of-type(2n+1){background-color:rgba(102,153,102,0.15)}.debug-mode tw-expression[type=macro]:nth-of-type(4n+2){background-color:rgba(102,153,136,0.15)}.debug-mode tw-expression[type=macro][name="for"],.debug-mode tw-expression[type=macro][name="loop"],.debug-mode tw-expression[type=macro][name="print"],.debug-mode tw-expression[type=macro][name="enchant"],.debug-mode tw-expression[type=macro][name="display"]{background-color:rgba(0,170,255,0.1) !important}.debug-mode tw-expression[type=macro][name="if"],.debug-mode tw-expression[type=macro][name="if"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="unless"],.debug-mode tw-expression[type=macro][name="unless"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="elseif"],.debug-mode tw-expression[type=macro][name="elseif"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="else"],.debug-mode tw-expression[type=macro][name="else"]+tw-hook:not([name]){background-color:rgba(0,255,0,0.1) !important}.debug-mode tw-expression[type=macro][name="hidden"],.debug-mode tw-expression[type=macro].false{background-color:rgba(255,0,0,0.2) !important}.debug-mode tw-expression[type=macro][name="hidden"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro].false+tw-hook:not([name]){display:none}.debug-mode tw-expression[type=macro][name="either"],.debug-mode tw-expression[type=macro][name="a"],.debug-mode tw-expression[type=macro][name="dm"],.debug-mode tw-expression[type=macro][name="ds"],.debug-mode tw-expression[type=macro][name="array"],.debug-mode tw-expression[type=macro][name^="sub"],.debug-mode tw-expression[type=macro][name="altered"],.debug-mode tw-expression[type=macro][name="count"],.debug-mode tw-expression[type=macro][name^="data"],.debug-mode tw-expression[type=macro][name="find"],.debug-mode tw-expression[type=macro][name$="ed"],.debug-mode tw-expression[type=macro][name$="-pass"],.debug-mode tw-expression[type=macro][name="range"],.debug-mode tw-expression[type=macro][name^="num"],.debug-mode tw-expression[type=macro][name^="str"],.debug-mode tw-expression[type=macro][name="text"],.debug-mode tw-expression[type=macro][name^="lower"],.debug-mode tw-expression[type=macro][name^="upper"],.debug-mode tw-expression[type=macro][name="words"],.debug-mode tw-expression[type=macro][name="ceil"],.debug-mode tw-expression[type=macro][name="floor"],.debug-mode tw-expression[type=macro][name="random"],.debug-mode tw-expression[type=macro][name="abs"],.debug-mode tw-expression[type=macro][name="cos"],.debug-mode tw-expression[type=macro][name="exp"],.debug-mode tw-expression[type=macro][name^="log"],.debug-mode tw-expression[type=macro][name="max"],.debug-mode tw-expression[type=macro][name="min"],.debug-mode tw-expression[type=macro][name="pow"],.debug-mode tw-expression[type=macro][name="sign"],.debug-mode tw-expression[type=macro][name="sin"],.debug-mode tw-expression[type=macro][name="sqrt"],.debug-mode tw-expression[type=macro][name="tan"],.debug-mode tw-expression[type=macro][name="round"],.debug-mode tw-expression[type=macro][name^="hsl"],.debug-mode tw-expression[type=macro][name^="rgb"]{background-color:rgba(255,255,0,0.2) !important}.debug-mode tw-expression[type=macro][name$="-game"],.debug-mode tw-expression[type=macro][name="move"],.debug-mode tw-expression[type=macro][name="put"],.debug-mode tw-expression[type=macro][name="set"]{background-color:rgba(255,128,0,0.2) !important}.debug-mode tw-expression[type=macro][name^="link"],.debug-mode tw-expression[type=macro][name$="-link"],.debug-mode tw-expression[type=macro][name="dropdown"],.debug-mode tw-expression[type=macro][name^="click"],.debug-mode tw-expression[type=macro][name="goto"],.debug-mode tw-expression[type=macro][name="undo"],.debug-mode tw-expression[type=macro][name^="mouseo"]{background-color:rgba(32,191,223,0.2) !important}.debug-mode tw-expression[type=macro][name^="replace"],.debug-mode tw-expression[type=macro][name^="prepend"],.debug-mode tw-expression[type=macro][name^="append"],.debug-mode tw-expression[type=macro][name="show"],.debug-mode tw-expression[type=macro][name^="remove"]{background-color:rgba(223,96,32,0.2) !important}.debug-mode tw-expression[type=macro][name="event"],.debug-mode tw-expression[type=macro][name="live"]{background-color:rgba(32,32,223,0.2) !important}.debug-mode tw-expression[type=macro][name="align"],.debug-mode tw-expression[type=macro][name^="colo"],.debug-mode tw-expression[type=macro][name="background"],.debug-mode tw-expression[type=macro][name="css"],.debug-mode tw-expression[type=macro][name="font"],.debug-mode tw-expression[type=macro][name="hook"],.debug-mode tw-expression[type=macro][name$="-style"],.debug-mode tw-expression[type=macro][name^="text-"],.debug-mode tw-expression[type=macro][name^="transition"],.debug-mode tw-expression[type=macro][name^="t8n"],.debug-mode tw-expression[type=macro][name="live"]{background-color:rgba(255,191,0,0.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 0.5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,0.5)}.debug-mode tw-hook{background-color:rgba(0,85,255,0.1) !important}.debug-mode tw-hook::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,0.1) !important}.debug-mode tw-collapsed::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 50%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, rgba(255,204,189,0.25) 0%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,0.2)}.debug-mode tw-enchantment{animation:enchantment 0.5s infinite;-webkit-animation:enchantment 0.5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,0.1)}.debug-mode tw-include::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(type) ' "' attr(title) '"'}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}@-webkit-keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:10em;min-height:1em;padding:0em 1em 1em 1em;font-size:1.25em;font-family:sans-serif;color:#000;border-left:solid #000 2px;border-top:solid #000 2px;border-top-left-radius:.5em;background:#fff;opacity:1}tw-debugger select{margin-right:1em;width:12em}tw-debugger button{border-radius:3px;border:solid #999 1px;margin:auto 4px;background-color:#fff;font-size:inherit;color:#000}tw-debugger button.enabled{background-color:#eee;box-shadow:inset #ddd 3px 5px 0.5em}tw-debugger .panel{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;max-height:40vh;overflow-y:scroll;overflow-x:hidden;z-index:999998;background:#fff;border:inherit;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:0.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger .panel table{border-spacing:0px}tw-debugger .variable-row{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:horizontal;-webkit-flex-direction:row;-moz-flex-direction:row;-ms-flex-direction:row;flex-direction:row;flex-shrink:0}tw-debugger .variable-row:nth-child(2n){background:#EEE}tw-debugger .variable-name{display:inline-block;width:50%}tw-debugger .temporary-variable-scope{opacity:0.8;font-size:0.75em}tw-debugger .temporary-variable-scope::before{content:" in "}tw-debugger .global::before{content:"$"}tw-debugger .temporary::before{content:"_"}tw-debugger .variable-path{opacity:0.4}tw-debugger .variable-value{display:inline-block;width:50%}tw-debugger .error-row{background-color:rgba(230,101,204,0.3)}tw-debugger .error-row:nth-child(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .error-row *{padding:0.25em 0.5em}tw-debugger .error-row .error-message{cursor:help}tw-debugger .panel-source{font-family:monospace;overflow-x:scroll;white-space:pre}tw-debugger .tabs{padding-bottom:0.5em}tw-debugger .tab{border-radius:0px 0px 0.5em 0.5em;border-top:none}tw-dialog{z-index:999997;position:fixed;left:auto;right:auto;bottom:auto;top:auto;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block;max-width:50vw;max-height:75vh;overflow:hidden}tw-dialog input[type=text]{font-size:inherit;width:100%}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.8);display:flex;align-items:center;justify-content:center}tw-link,.link,tw-icon,.enchantment-clickblock{cursor:pointer}tw-link,.enchantment-link{color:#4169E1;font-weight:bold;text-decoration:none;transition:color 0.2s ease-in-out}tw-passage tw-enchantment[style^="color"] tw-link:not(:hover),tw-passage tw-enchantment[style*=" color"] tw-link:not(:hover),tw-passage tw-enchantment[style^="color"] .enchantment-link:not(:hover),tw-passage tw-enchantment[style*=" color"] .enchantment-link:not(:hover){color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#DD4B39}.visited{color:#6941e1}tw-passage tw-enchantment[style^="color"] .visited:not(:hover),tw-passage tw-enchantment[style*=" color"] .visited:not(:hover){color:inherit}.visited:hover{color:#E3E}tw-broken-link{color:#993333;border-bottom:2px solid #993333;cursor:not-allowed}tw-passage tw-enchantment[style^="color"] tw-broken-link:not(:hover),tw-passage tw-enchantment[style*=" color"] tw-broken-link:not(:hover){color:inherit}.enchantment-mouseover{border-bottom:1px dashed #666}.enchantment-mouseout{border:rgba(64,149,191,0.25) 1px solid}.enchantment-mouseout:hover{background-color:rgba(64,149,191,0.25);border:transparent 1px solid;border-radius:0.2em}.enchantment-clickblock{box-shadow:inset 0 0 0 0.5vmax;display:block;color:rgba(65,105,225,0.5);transition:color 0.2s ease-in-out}.enchantment-clickblock:hover{color:rgba(0,191,255,0.5)}.enchantment-clickblock:active{color:rgba(222,78,59,0.5)}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;font:100% Georgia, serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 20%;margin:0;overflow:hidden;background-color:#000;color:#fff}tw-story br[data-cons]{display:block;height:0;margin:0.8ex 0}tw-story select{background-color:transparent;font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-passage{display:block}tw-sidebar{left:-5em;width:3em;position:absolute;text-align:center;display:block}tw-icon{display:block;margin:0.5em 0;opacity:0.2;font-size:2.75em}tw-icon:hover{opacity:0.4}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:0.2em;padding:0.2em;font-size:1rem;cursor:help}tw-error.error{background-color:rgba(223,58,190,0.4);color:#fff}tw-error.warning{background-color:rgba(223,140,58,0.4);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:0.8rem;line-height:1rem}tw-error-explanation-button{cursor:pointer;line-height:0em;border-radius:1px;border:1px solid black;font-size:0.8rem;margin:0 0.4rem;opacity:0.5}tw-error-explanation-button .folddown-arrowhead{display:inline-block}tw-notifier{border-radius:0.2em;padding:0.2em;font-size:1rem;background-color:rgba(223,182,58,0.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid black;display:inline-block;width:1em;height:1em}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:0.3em 0 0.6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,0.6);background-color:#ff9}ins{color:rgba(0,0,0,0.6);background-color:rgba(255,242,204,0.5);border-radius:0.5em;box-shadow:0em 0em 0.2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate;-webkit-animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:horizontal;-webkit-flex-direction:row;-moz-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-justify-content:space-between;-moz-justify-content:space-between;justify-content:space-between}tw-outline{color:white;text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000}tw-shadow{text-shadow:0.08em 0.08em 0.08em #000}tw-emboss{text-shadow:0.08em 0.08em 0em #000;color:white}tw-condense{letter-spacing:-0.08em}tw-expand{letter-spacing:0.1em}tw-blur{color:transparent;text-shadow:0em 0em 0.08em #000}tw-blurrier{color:transparent;text-shadow:0em 0em 0.2em #000}tw-blurrier::selection{background-color:transparent;color:transparent}tw-blurrier::-moz-selection{background-color:transparent;color:transparent}tw-smear{color:transparent;text-shadow:0em 0em 0.02em rgba(0,0,0,0.75),-0.2em 0em 0.5em rgba(0,0,0,0.5),0.2em 0em 0.5em rgba(0,0,0,0.5)}tw-mirror{display:inline-block;transform:scaleX(-1);-webkit-transform:scaleX(-1)}tw-upside-down{display:inline-block;transform:scaleY(-1);-webkit-transform:scaleY(-1)}tw-fade-in-out{text-decoration:none;animation:fade-in-out 2s ease-in-out infinite alternate;-webkit-animation:fade-in-out 2s ease-in-out infinite alternate}tw-rumble{-webkit-animation:rumble linear 0.1s 0s infinite;animation:rumble linear 0.1s 0s infinite;display:inline-block}tw-shudder{-webkit-animation:shudder linear 0.1s 0s infinite;animation:shudder linear 0.1s 0s infinite;display:inline-block}tw-shudder-in{animation:shudder-in 1s ease-out;-webkit-animation:shudder-in 1s ease-out}.transition-in{-webkit-animation:appear 0ms step-start;animation:appear 0ms step-start}.transition-out{-webkit-animation:appear 0ms step-end;animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in{-webkit-animation:appear .8s;animation:appear .8s}[data-t8n^=dissolve].transition-out{-webkit-animation:appear .8s reverse;animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block;-webkit-animation:shudder-in .8s;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block;-webkit-animation:shudder-in .8s reverse;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block;-webkit-animation:rumble-in .8s;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block;-webkit-animation:rumble-in .8s reverse;animation:rumble-in .8s reverse}[data-t8n^=boxflash].transition-in{-webkit-animation:box-flash .8s;animation:box-flash .8s}[data-t8n^=pulse].transition-in{-webkit-animation:pulse .8s;animation:pulse .8s;display:inline-block}[data-t8n^=pulse].transition-out{-webkit-animation:pulse .8s reverse;animation:pulse .8s reverse;display:inline-block}[data-t8n^=slideleft].transition-in{-webkit-animation:slide-left .8s;animation:slide-left .8s;display:inline-block}[data-t8n^=slideleft].transition-out{-webkit-animation:slide-right .8s reverse;animation:slide-right .8s reverse;display:inline-block}[data-t8n^=slideright].transition-in{-webkit-animation:slide-right .8s;animation:slide-right .8s;display:inline-block}[data-t8n^=slideright].transition-out{-webkit-animation:slide-left .8s reverse;animation:slide-left .8s reverse;display:inline-block}[data-t8n^=slideup].transition-in{-webkit-animation:slide-up .8s;animation:slide-up .8s;display:inline-block}[data-t8n^=slideup].transition-out{-webkit-animation:slide-down .8s reverse;animation:slide-down .8s reverse;display:inline-block}[data-t8n^=slidedown].transition-in{-webkit-animation:slide-down .8s;animation:slide-down .8s;display:inline-block}[data-t8n^=slidedown].transition-out{-webkit-animation:slide-up .8s reverse;animation:slide-up .8s reverse;display:inline-block}[data-t8n^=flicker].transition-in{-webkit-animation:flicker .8s;animation:flicker .8s}[data-t8n^=flicker].transition-out{-webkit-animation:flicker .8s reverse;animation:flicker .8s reverse}[data-t8n$=fast]{animation-duration:.4s;-webkit-animation-duration:.4s}[data-t8n$=slow]{animation-duration:1.6s;-webkit-animation-duration:1.6s}
 </style>
 </head>
@@ -11,864 +11,2811 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Smiley Smell" startnode="53" creator="Twine" creator-version="2.3.8" ifid="0C4229DC-CF1C-4D00-B64B-A6C4E8B51714" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+<tw-storydata name="YonHeePrototype" startnode="1" creator="Twine" creator-version="2.3.8" ifid="36DD31CB-3B5E-43DC-8323-2A47883B7B00" zoom="0.6" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Jua');
 body, tw-story
 {
   color : black;
-  background-color: white;
-  font-family: 'Nanum Myeongjo', serif;
+  background-color: #7CCED2;
+  font-family: 'Jua', sans-serif;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="H_1 출근 전날" tags="" position="11,3" size="100,100">3번의 낙방 끝에 겨우 입성한 디캠프.
-꿈에 그리던 곳으로 내일 출근하게 된다니, 내일이면 벌써 출근 5일차지만, 아직도 잘 믿기지가 않아서 볼을 한 번 더 꼬집어봤어. 
-그토록 바라던 회사에서, 사회로의 첫 발을 내딛는 나는 정말 운이 좋은 사람이야..
-어제까지는 너무 긴장해서 어리버리했던 것 같아. 
-내일부터는 일 잘하는 빠릿빠릿한 인턴으로 인정 받아, 디캠프의 레전드 인턴으로 길이길이 남아야지!
-
-회사에 대해 예습도 할 겸, 구석구석 살펴보던 &lt;a href=&quot;https://dcamp.kr/&quot;&gt;디캠프&lt;/a&gt; 홈페이지를 닫고, 
-내일 최상의 컨디션으로 출근을 하기 위해 그만 침대에 누웠어.
-아직 신체리듬이 직장인 버전으로 바뀌지 않아서 아침에 일어나는게 좀처럼 쉽지가 않아.
-늦잠자서 지각하면 안되는데.. 어쩔 수 없이 최후의 방법을 사용하는 수 밖에. 
-눈을 감고 온 신경을 코에 집중했어.
-코 평수를 있는 힘껏 늘리고 벌름거려. 
-더욱 집중하니, 킁킁 소리가 저절로 나. 
-저-기 멀리 9층 아래의 화단 속, 흰 개미의 냄새가 느껴져.
-미세하게 잠자리의 말라 비틀어진 날개 냄새도 느껴져.
-딱 맡아보니, 흰 개미가 죽은 잠자리를 식량으로 가져가는 중이군. 
-
-아, 방금 전까지 흰 개미의 발냄새까지 느껴졌었는데.. 점점 냄새가 희미해지네.
-이제 때가 된 것 같아.
-마치 크림을 그린 듯, 화단 속까지 느껴지던 냄새는 점점 멀어지더니, 결국 방금 건조대에 널어놓은 빨래의 섬유유연제 냄새로 돌아와.
-
-몸이 붕 뜨고 블랙홀로 빨려 들어가는 것만 같아.
-&lt;img src=&quot;images/H_1.png&quot; width=&quot;800&quot; height=&quot;800&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-[[정신이 아득해진다. -&gt; H_2 출근길]]</tw-passagedata><tw-passagedata pid="2" name=" H_2 출근길" tags="" position="10,115" size="100,100">휴대폰 알람 소리에 잠이 깼어. 6시. 
-이른 시간이지만 꿀잠을 잤더니 몸이 아주 날아갈 것만 같아. 컨디션은 최상.
-역시 어제 초능력 쓴 뒤에 자는 잠은 퀄리티가 다른 꿀잠이라니깐.
-정신을 차리고 서둘러 출근 준비를 해. 어제 미리 골라둔 옷도 입었어.
-오늘은 또 무슨 일을 하게 될까! 걱정반 기대반, 집을 나섰어.
-
-
-
-[[다음 페이지로 -&gt;H_33]]
-
-&lt;audio src=&quot;sounds/H_2.mp3&quot; autoplay&gt;
-</tw-passagedata><tw-passagedata pid="3" name=" H_3 지하철 출근" tags="" position="158,166" size="100,100">혹시 차가 막힐 수도 있으니까, 그냥 원래대로 지하철을 타기로 했어.
-
-출근길 지하철역을 거의 일주일째 보는 것 같은데, 볼 때마다 정말 적응이 되지 않아.
-결국 내 바로 앞에 있는 지하철은 사람이 너무 많아서 타지 못했어. 
-다음 지하철도 보내려고 했는데, 뒤에서 사람들이 미는 바람에 의도치 않게 지하철에 탑승했어.
-숨도 잘 쉬어지지 않아.
-나는 힘들어죽겠는데, 사람들은 아무렇지도 않게 그 좁은 곳에서 각자 휴대폰을 하고 있어.
-이게 바로 직장인의 내공인가.
-
-
-많은 사람들 사이에서 겨우 살아남아 선릉역에서 내렸어.
-잠시 화장실에 들러 옷 매무새를 정돈하고, 디캠프로 출발했어.
-디캠프 가는 길은 선정릉 덕분에 정말 초록초록해. 오늘 날씨가 좋아서 그런지 더 반짝반짝해 보이네.
-
-
-
-[[다음 페이지로 -&gt;B_1 회사도착]] </tw-passagedata><tw-passagedata pid="4" name="H_4 버스 출근" tags="" position="159,284" size="100,100">맨날 지하철만 타고 출근했었는데, 오늘은 바로 눈 앞에 버스도 있겠다...
-버스를 타기로 했어. 
-혹시나 출근시간 러시아워에 걸려서 시간이 더 오래 걸릴까봐 걱정이 조금 되긴하는데,
-뭐 오늘은 일찍 나왔으니까 괜찮을꺼야.
-
-지옥철을 피해서 왔지만, 버스도 만만치 않네. 
-기사님이 브레이크를 밟을 때마다 숨이 잘 안쉬어지는 것은 똑같아.
-내일부터는 그냥 지하철을 타야겠어.
-
-지하철 역보다 버스 정류장이 회사랑 더 가가이에 있었네.
-덕분에 50발자국 정도 덜 걸을 수 있네.
-디캠프 가는 길은 선정릉 덕분에 정말 초록초록해. 오늘 날씨가 좋아서 그런지 더 반짝반짝해 보이네.
-
-
-[[다음 페이지로 -&gt;B_1 회사도착]] </tw-passagedata><tw-passagedata pid="5" name="B_1 회사도착" tags="" position="5,356" size="100,100">&quot;안녕하세요. 좋은 아침입니다!&quot; 나는 힘차게 큰 목소리로 인사했어. 
-
-&quot;준이님~ 안녕!&quot; 사업개발팀 로미팀장님이야. 
-
-&quot;오늘은 교육파트 인턴으로 첫 업무가 있어요. 11시에 권교수님과 연세대학교 수업 준비 회의가 있는데, 회의 자료 준비해 주고 지난 수업 자료도 미리 공부해 두세요.&quot;
-
-&quot;네!&quot; 
-
-대답은 시원하게 했는데 사실 약간 긴장이 되더라고. 회의 준비가 뭘까. 지난 수업 자료는 어디에 있을까. 대답하기 전에 물어 봤어야 했는데. 이런. 
-
-&quot;아하. 그룹웨어 부터 살펴봐야 겠다!&quot; 디캠프 그룹웨어엔 업무 자료가 잘 정리되어 있어. 팀별, 날짜별, 사업별 자료 목록을 보면서 필요한 자료를 읽어보면 돼. 그룹웨어에서 필요한 자료를 다운로드 받으면서 동시에 회의 준비에 필요한 것을 패드에 정리했어. 
-
-&quot;뭐지. 어쩐지 멀티플레이어가 된 이 느낌적인 느낌은?&quot; 나는 혼자 살짝 기분이 좋아졌어. 친구들이 사회 생활을 경험하고 있는 내 모습을 본다면 뭐라고 할까. 후훗. 
-
-그때였어. 갑자기 주변이 어수선해지면서 매니저님들이 어딘가로 모이기 시작해. 
-
-
-
-[[다음 페이지로-&gt; B_2 사라진 구름이]]</tw-passagedata><tw-passagedata pid="6" name="B_5 구름이 수색협조 요청" tags="" position="1161,781" size="100,100">&#39;띠링~!&#39; &#39;띠링!&#39; &#39;띠링!&#39; 
-디캠프 업무용 메신저 행아웃(Hangout chat)에서 다급한 알림이 오고있어. 
-디캠프 그룹 채팅에 메시지가 올라오는 걸? 총무팀 봉매니저님이야.
-
-&lt;img src=&quot;images/B_5.png&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-&quot;디캠프 인턴즈 여러분께 긴급 업무 협조를 요청합니다. 디캠프 패밀리 플레이어블의 사랑스런 강아지 구름이가 굿모닝 미팅 시간 이후 갑자기 사라져 보이지 않고 있습니다. 3개월 된 포메라니안 구름이는 실종된지 1시간 정도 지난 것으로 보입니다. 구름이는 자기 집을 잘 떠나지 않는데, 어떤 흔적도 없이 조용히 사라졌습니다. 구름이를 보신 분은 즉시 봉매니저님께 행아웃 주세요. 플레이어블 대표님, 멤버들 급히 찾고 계십니다. 그리고 시간을 내주실 수 있는 인턴은 잠시 디캠프 공간 수색에 동참 부탁드립니다!&quot;  
-
-디캠프 인턴즈 그룹 채팅창이 시끄러워졌어. &quot;수색 가능한 사람?&quot;
-
-&quot;저 일단 같이 찾아보겠습니다!&quot;, &quot;저두요!&quot;, &quot;됩니다!!&quot;
-
-
-
-[[다음 페이지로 -&gt;H_40]]
-</tw-passagedata><tw-passagedata pid="7" name=" B_6 구름이의 냄새" tags="" position="659,954" size="100,100">&quot;봉매니저님. 저... 구름이가 있었던 방석이나, 이동할 때 사용한 케이지, 아니면 옷.. 그런 것을 좀 볼 수 있을까요? 구름이를 느끼면서 찾아보고 싶어서요..&quot;
-
-&quot;준이님. 강아지에 대해서 잘 아시나봐요? 그럼 물건들을 보면 구름이를 찾는데 도움이 되나요? 마침 플레이어블 대표님이 두고간 구름이 장난감이 여기 있어요.&quot; 
-봉매니저님은 몸을 돌려 책상 위에 놓인, 낡은 초록물개 모양 봉제 장난감을 손으로 가르켰어. 
-
-&quot;제가 냄새를 개처럼... 아. 아니. 제가 
-&lt;a href=&quot;https://www.dogmate.co.kr/&quot; target=_blank&gt;도그메이트&lt;/a&gt;에서 펫시터 알바를 한 적이 있어요. 강아지를 좋아해서요. 일종의... 교감 같은 것이죠. ^^&quot;
-
-&quot;앗. 그래요? 도그메이트는 우리 패밀리 기업인데요. 잘 됐네요. 도움이 된다면 좋겠어요.&quot;
-
-&quot;잠시 살펴보고 돌려드릴께요.&quot; 
-
-나는 초록물개 인형을 들고 서둘러 화장실로 향했어. 구름이를 찾기 위해 초능력을 쓸 생각이냐고? 갑자기 깊은 잠에 빠져들어 몇시간이고 쿨쿨 곯아떨어질 수 있는데도?
-
-설마. 천만에. 아직은 안돼. 그냥 정말 냄새만 맡아 볼꺼야. 초능력을 벌써 쓴다니... 너무 위험한 생각인 걸? 그러다가 새내기 인턴이 근무 시간에 스르륵 잠에 빠지면 어쩔 셈이야? 
-
-하지만 초능력을 써야할 순간이 올 수 있으니 준비는 해둬야겠지? 맞아. 냄새맡는 초능력을 지닌 나도 약간의 힌트는 있어야 한다구. 
-
-
-
-[[다음 페이지로-&gt; B_7 수색준비 끝]]</tw-passagedata><tw-passagedata pid="8" name=" B_7 수색준비 끝" tags="" position="657,1068" size="100,100">&quot;흡&quot; 나는 재빨리 코를 물개인형에서 떼어냈어. 혹시 이러다가 너무 깊게 냄새를 맡는다면, 부주의하게도 초능력을 사용해 버리게 될테니까 말야. 이해하기 어렵겠지만, 초능력을 갖고 있다는 건 생각보다 섬세한 절제와 자제심을 필요로 한다구. 게다가... 나의 냄새맡는 멋찐 이 능력은 때때로 심각한 부작용을 일으킨다는 것을 기억해야 해. 
-
-어쨌든, 구름이 냄새는 입력되었어. 
-
-&quot;준비 끝.&quot; 좋아, 이제 본격적으로 구름이를 찾아 나서 볼까? 지금 몇시지? 좋아, 회의 준비는 충분히 할 수 있겠어. 
-
-
-&quot;어디서 부터 시작하지?&quot; 그래, 그것 부터 결정해야 겠다. 
-
-
-
-[[2층, 지금 이곳 부터 -&gt; B_8 2층]]
-[[4층부터, 라운지 곳곳을 찾아보는 거야 -&gt;B_9 4층]]
-[[5층은 어때? 패밀리 회사들이 모여있어 -&gt; B_10 5층]]
-[[맨 꼭대기, 6층에서 출발하자 -&gt;B_11 6층]]</tw-passagedata><tw-passagedata pid="9" name=" B_8 2층" tags="" position="781,1068" size="100,100">&lt;img src=&quot;images/B_8.png&quot; width=&quot;1100&quot; height=&quot;300&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-뚜우뚜- 한번 스캔해볼까? 디캠프 2층 모습 말야. 누구나 자유롭게 출입할 수 있는 카페 빌리프커피가 있는 2층 로비 라운지를 가운데 두고, 왼쪽에 위치한 사무 공간이 바로 나와 디캠프 멤버들이 모여 일하는 곳이야. 지문 인식을 통해 출입하는 곳이라서 권한이 있는 사람들어올 수 있어. 
-
-자유롭게 모여 이야기하는 사람들. 출근 첫날엔 이런 모습이 어쩐지 낯설고 나만 겉도는 느낌이라 어색했는데, 며칠 사이에 아주 익숙해졌어. 몇개월 뒤엔 나도 라운지 테이블에 앉아, 뭔가 일에 대한 진지한 이야기도 나누고 선배들, 스타트업 대표님들이랑 일상도 나눌 수 있었으면 좋겠다고 생각해. 
-
-&quot;아... 여긴 없는걸?&quot; 인턴 동기 정하가 구내 카페 매니저님과 함께 카운터 너머 곳곳을 둘러보고 말하고 있어. 
-&quot;창고랑, 비상 계단도 모두 찾아봤어. 구름이는 여긴 없는거 같아.&quot;
-
-
-
-[[다음 페이지로 -&gt; B_12]]</tw-passagedata><tw-passagedata pid="10" name="B_9 4층" tags="" position="644,1420" size="100,100">그래, 방문객들이 제일 많은 4층으로 올라가자.
-4층은 디캠프 직원과 패밀리사 직원들의 미팅 공간이야.
-패밀리멤버십을 가지고 있는 약 160개의 회사들이 업무 미팅을 위한 장소로 활용하고 있지.
-들어가자마자 있는 싱크대와 커피기계, 전자레인지만 봐도 얼마나 많은 사람들이 자유롭게 이용하고 있는지 알겠지?
-
-
-
-[[라운지를 살펴볼까? -&gt; H_12 4층 라운지]]
-</tw-passagedata><tw-passagedata pid="11" name=" B_10 5층" tags="" position="662,1694" size="100,100">그래! 디캠프에 여러 회사들이 가장 많이 입주해있는 5층으로 가보자. 
-
-디캠프에서는 스타트업들에게 사무실 공간을 무료로 빌려주고 있어.
-스타트업 입장에서는 임대료에 대한 부담을 줄일 수 있기 때문에 디캠프에 입주하는 것은 아주 매력적이지.
-자, 그럼 디캠프에 입주해있는 스타트업에는 뭐가 있는지 한 번 살펴볼까?
-5층에 도착하자마자 엘리베이터 바로 앞에 입주사들의 로고가 붙어 있어. 
-
-
-&lt;a href=&quot;http://www.ablehouse.kr/&quot; target=_blank&gt;코티에이블&lt;/a&gt;
-:청년들을 위한 글로벌 코리빙하우스 &#39;에이블하우스&#39;
-
-&lt;a href=&quot;https://www.impressivo.net/&quot; target=_blank&gt;임프레시브코리아&lt;/a&gt;
-:3D Multi-touch 기반 행동분석 헬스케어 솔루션
-
-&lt;a href=&quot;https://moneypin.biz/&quot; target=_blank&gt;하우투비즈랩&lt;/a&gt;
-:스타트업과 자영업자를 위한 모바일 회계장부 앱 &#39;머니핀&#39;
-
-&lt;a href=&quot;https://www.lfin.kr/&quot; target=_blank&gt;엘핀&lt;/a&gt;
-:이동통신기지국 기반 위치 인증 솔루션
-
-&lt;a href=&quot;https://itcha.co.kr/&quot; target=_blank&gt;마지막삼십분&lt;/a&gt;
-:온디멘드 주차 대행 서비스 &#39;잇차&#39;
-
-&lt;a href=&quot;http://fitmedi.co.kr/&quot; target=_blank&gt;피트메디&lt;/a&gt;
-:근력 운동 기록 및 개인 맞춤 건강관리 앱
-
-&lt;a href=&quot;https://www.albacheck.co.kr/&quot; target=_blank&gt;알바체크&lt;/a&gt;
-:아르바이트 직원 관리 서비스
-
-&lt;a href=&quot;https://bigfinance.co.kr/html/landing/index.html&quot; target=_blank&gt;에프엔지오&lt;/a&gt;
-:대체 데이터를 수집/분석/가공하는 금융 빅데이터 플랫폼 &#39;빅파이낸스&#39;
-
-&lt;a href=&quot;https://mywillim.wixsite.com/home&quot; target=_blank&gt;윌림&lt;/a&gt;
-:일기 콘텐츠를 기반으로한 SNS 플랫폼 &#39;세줄일기&#39;
-
-
-
-[[사무실 안으로 이동-&gt;H_24 5층 사무실 안 탐색]]</tw-passagedata><tw-passagedata pid="12" name="B_11 6층" tags="" position="660,1864" size="100,100">그래, 제일 꼭대기 층인 6층부터 수색해보자. 
-6층에는 디데이에서 가장 넓은 공간인 다목적홀과 세미나실이 있어.
-그리고 경치 좋은 루프탑도 있지.
-
-일단 제일 넓은 다목적 홀에 가보자.
-
-
-
-[[다목적 홀로 이동 -&gt;H_26 6층 다목적홀]]
-</tw-passagedata><tw-passagedata pid="13" name=" B_12" tags="" position="899,1068" size="100,100">&quot;혹시 CCTV는 확인한 건가요? 혹시... 누군가 문을 열고 나갔을 때 밖으로 나갔다면?&quot; 카페 옆 계단으로 연결된 작은 문이 있다는 것이 기억났거든. 
-
-&quot;물론이야. 나랑 봉매니저님이 CCTV를 먼저 확인하고나서 공개 도움을 요청한 것이니까. 구름이가 사라진지 오래되지 않아서, 바로 모든 CCTV를 살폈지만 밖으로 나간 것은 아닌거 같아.&quot; 
-
-&quot;다행이에요. 나는 사무실 안쪽을 찾아볼래요. 생각보다 2층 사무실이 공간이 오밀조밀 하잖아요. 섹션 구분도 많고.&quot;
-
-&quot;좋아요. 그런데... 거기 어떻게...&quot; 정하님은 눈썹 끝을 끌어올렸어. 내심, 구름이가 2층 사무실까지 어떻게 들어왔겠어. 그런 눈치인데? &quot; 좋아요. 준이님. 행아웃에 준이님이 2층 안쪽을 다시 찾아 본다고 남겨주세요. 난 위층으로 올라가 볼래요.&quot; 정하님은 계단 비상구 문을 열면서 곧 사라졌어. 
-
-
-
-[[등잔 밑이 어둡다고 하지 않나? -&gt;B_13 고요한 탕비실]]</tw-passagedata><tw-passagedata pid="14" name="B_13 고요한 탕비실" tags="" position="1017,1074" size="100,100">조금 전까지 회의 준비하며 앉아있던 사무실인데, 수색 목적으로 들어오니 어쩐지 특별한 현장이 된 기분이야. 난 초능력자인데, 지금은 뭐랄까... 초능력을 지닌 탐정 같은 걸? 사라진 구름이를 찾아야하는 절박한 상황이라서 그런가...
-
-&quot;지금 시간이...?&quot; 나는 스마트폰으로 시간을 체크했어. 회의 자료를 아직 다 준비하지 못했는데, 강아지를 찾는 일도 중요하고... 아... 그냥 그대로 자리에 앉아서 회의 자료를 만들까? 시간에 쫓겨 제대로 준비를 못하면 어쩌지? 구름이를 찾기 위해선 지금이 골든타임일 수 있잖아?
-
-
-
-[[다음 페이지로-&gt; B_14]]</tw-passagedata><tw-passagedata pid="15" name=" B_14" tags="" position="1132,1077" size="100,100">&quot;일단, 탕비실하고 창고만이라도 둘러보자.&quot; 나도 모르게 혼잣말을 했어. 그 정도 시간은 아직 남아 있다고 봐. 괜찮아. 
-
-2층 사무실은 팀별로 구분된 영역에 책상과 의자가 띄엄띄엄 놓여있어. 띄엄띄엄 있다는 것은 그냥 하는 말은 아닌데 코로나 바이러스 방역 때문에 기존 사무실 공간 수용 인원을 절반으로 줄였어. 절반의 직원분들은 로비 오른쪽 사무실로 자리를 옮겼지. 
-
-사무실의 맨 끝자리 부터, 대회의실, 창고, 탕비실이 있어. 난 말야. 일단, 맛있는 것이 많은 탕비실 부터 가보려해. 강아지들은 과자 냄새나 간식 냄새를 잘 맡을 수 있거든. 
-
-
-
-[[탕비실로-&gt; B_15 탕비실]]</tw-passagedata><tw-passagedata pid="16" name=" B_15 탕비실" tags="" position="1249,1078" size="100,100">&quot;탕비실이란 무엇인가..&quot; 고백하자면, 나 탕비실이라는 말을 디캠프 인턴하면서 처음들었어. 이거 원래 많이 쓰이는 말인가? 아니지 않아? 내가 무식한 건가... 
-
-암튼, 이곳은 간단한 스낵이나, 차, 커피를 직접 타서 먹을 수 있게 준비되어 있어. 세척도 할 수 있고. 냉장고도 있고. 여기에서 출력도 하고 복사도하고 문서도 파기해. 이름은 낯설지만, 회사 생활을 한다면 생각보다 자주 들르게 되는 곳이야. 
-
-
-먹을 것들과 일회용품이 수납장에 보관되기 때문에 열어볼만한 문이 많아. 그래서 여기 부터 찾아보고 싶었다고. 하나씩 열어봐야지. 
-
-
-
-[[윗층 수납장 -&gt; B_16]]
-[[아래층 수납장 -&gt;B_17]]</tw-passagedata><tw-passagedata pid="17" name=" B_16" tags="" position="1369,1078" size="100,100">&lt;img src=&quot;images/B_16.jpg&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-
-
-[[다음페이지 -&gt;B_18]]</tw-passagedata><tw-passagedata pid="18" name="B_17" tags="" position="1367,1197" size="100,100">&lt;img src=&quot;images/B_16.jpg&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-
-
-[[다음페이지 -&gt;B_18]]</tw-passagedata><tw-passagedata pid="19" name="B_18" tags="" position="1509,1142" size="100,100">탕비실 모든 수납장을 찬찬히 열고 들여다 봤지만, 구름이는 없었어. 생각해보니, 구름이가 아래 수납장이라면 몰라도, 어른 머리 높이에 있는 윗 수납장에 어떻게 올라가나 싶더라고. 쿵푸팬더에 나오는 포처럼 먹을 것을 너무 좋아해서 자기도 모르는 초능력이 튀어나온 거라면 몰라도 말이지. 
-
-자, 이제 다른 곳으로 가보자. 
-
-
-
-[[잡동사니들의 천국, 2층 창고로! -&gt;B_19]]</tw-passagedata><tw-passagedata pid="20" name="B_19" tags="" position="1621,1142" size="100,100">2층 창고는 동화에 나오는 보물동굴 같아. 개방된 문에 쾌적한 곳이지만 대체로 불이 꺼져있고 사무용품부터, 서버, CCTV 모니터까지 다양한 물건들이 여러 선반에 층층이 쌓여있거든. 
-
-&quot;껌껌한 것이, 구름이가 숨기 딱 좋은 곳이야...&quot; 나도 모르게 혼잣말이 나왔지 뭐야. 때때로 혼자있고 싶을 때, 불꺼진 방에 덩그러니 있는 것도 괜찮거든. 깊은 밤에 홀로 깨어있는 것은 어때? 난 꽤 즐기는 편이야. 좀 구식이지만, 나는 심야 라디오도 좋아해. FM 영화음악 김세윤입니다를 알고 있다면, 우린 친구가 될 수 있을꺼야. 
-
-
-&quot;어이쿠우..!&quot; 좁은 선반 사이를 불도 켜지 않고 들여다 보는 것은 쉽지 않은 걸. 입구쪽은 사무실 채광 때문에 충분히 밝았는데, 조금만 안으로 들어오니 많이 어둡네. 돌아나가서 불켜는 버튼 부터 찾아볼까? 어딨지? 아 귀찮아. 그냥 잘 들여다보면서 찾는게 더 나을꺼 같아. 구름이가 놀랄 수도 있잖아. 
-
-
-
-[[창고 안 선반과 수납 상자를 하나씩 살펴본다 -&gt; B_20]]</tw-passagedata><tw-passagedata pid="21" name=" B_20" tags="" position="1733,1141" size="100,100">&lt;img src=&quot;images/B_20.jpg&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-&quot;아... 안되겠어..., 지금 몇시지?&quot; 어느새 땀이 흐르고 있어. 시간을 챙겨야 해. 회의 준비를 해두어야 한다고. 그것이 나의 업무라는 것을 기억하자. 
-
-&quot;지금... 지금일까?, 어떻게 하지?&quot; 나는 이제 어떤 결정을 내려야 한다는 것을 알았어.모든 랙 사이를 돌았지만, 여긴 너무 어둡고 눈만 사용해서는 구름이를 찾지 못했어.
-
-&quot;....그래!&quot;
-
-
-
-[[내 결정은 말야! 초능력을 사용하는 거야 -&gt;B_21 2층 창고에서 초능력 사용]]
-[[아직은 안돼. 그리고 여기 있을 것 같지도 않아 -&gt; H_19 4층 야외테라스]] </tw-passagedata><tw-passagedata pid="22" name="B_21 2층 창고에서 초능력 사용" tags="" position="1849,1049" size="100,100">&lt;img src=&quot;images/B_21.jpg&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-&quot;이때 아니면 언제 쓰라는 거야!!! 지금이라구!!!&quot; 
-
-순간적이지만 사냥개 만큼 뛰어난 후각 능력을 가졌는데, 냄새맡는 초능력을 한번 쓰고나면 얼마지 않아 기진맥진 지쳐 잠드는 초능력자를 본적있어? 지금 출근한지 며칠, 아니 오늘은 몇시간 되지도 않았지만 난 알 수 있었어. 익숙한 쉼터에서 떨어져 어딘지 모를 곳에 웅크리고 있을 작고 귀여운 강아지를 위해서라면! 맞아. 지금이야. 
-
-&quot;허헝~ 후흡!! 허헝~ 후흡!후흡!&quot; 설마, 그냥 들숨과 날숨을 교차시키는 것 만으로 초능력이 발휘된다고 생각한 건 아니겠지? 
-
-&quot;허헝~ 후흡!! 허헝~ 후흡!후흡!&quot;
-
-&quot;허헝~ 후흡!! 허헝~ 후흡!후흡!&quot;
-
-
-
-[[다음 페이지-&gt;B23]]</tw-passagedata><tw-passagedata pid="23" name="B23" tags="" position="1989,1045" size="100,100">&lt;img src=&quot;images/B_23.jpg&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-느껴져...초록 물개 인형에서 입력된 구름이의 냄새.
-
-&quot;느껴져...여기있어. 여기 가까이에...&quot; 아. 너무 어두워. 잘 보이지 않아. 
-
-&quot;아래쪽인데...흐흡흡... 구름아! 구름아!&quot;
-
-
-앗. 저기 케이블 모아둔 상자 아래. 랙 아래쪽 벽끝에 둥그런 무언가의 그림자가 있어.
-
-
-&quot;구름이다!!! 구름이야!!! 나도 모르게 크게 소리쳤어.지금은 소리쳐야 할 때라고 생각해. &quot;창고에요. 구름이 여기있어요!!!&quot; 나는 구름이를 품에 안았어. 
-
-&#39;쿵 쿵 쿵&#39; &#39;쿵 쿵 쿵&#39; 작은 강아지의 보송한 털, 체온, 어쩐지 심장 뛰는 소리까지 들리는 것 같아. 
-
-&quot;어? 구름아! 찾았다&quot; 봉매니저님이 곧 달려왔어. &quot;정말 고맙습니다. 잠깐 로비에서 이야기하던 사이에 들어왔나봐요. 그런데 여기 있는 것 어떻게 알았어요?&quot; 주변이 시끌시끌해. 하지만 난, 무슨 소린지 잘 들리지 않아. 내겐 두 가지 걱정이 있거든. 
-
-
-&quot;...정말... 다행이에요.... 가만 지금 몇시지? 그리고 나.. 지금 좀 졸린건가? 아니지?&quot; 모두 알잖아. 나 정말 지금 잠들면 곤란하다고!!
-
-
-
-[[다음 페이지로 -&gt;B_24 완벽한 해피엔딩]]</tw-passagedata><tw-passagedata pid="24" name="B_24 완벽한 해피엔딩" tags="" position="2121,1046" size="100,100">&#39;띠띠띠띠 뚜루르르~~&#39; 이게 무슨 소리냐고? 우리 집 문여는 소리. 
-
-하하하. 하하하. 함께 기뻐해 줘. 난 오늘 내 애매한 초능력을 사용해서 패밀리사가 잃어버릴 뻔한 강아지 구름이를 찾았고, 회의 자료도 시간 안에 딱 만들어서 처음 미팅한 뽀 교수님한테 칭찬을 들었어. 
-
-가장 중요한 건 뭔지 알아? 초능력을 사용했는데도, 이후 6시간이 지난 지금까지 내가 잠들지 않았다는 거야. 이게 길조가 아니라면, 뭐가 길조겠어? 
-더 기쁜 건 뭔지 알아? 포근한 우리집에 돌아온 지금, 잠이 쏟아진다는 거야. 딱 좋아. 푹 자고 내일도 일찍 일어날 수 있겠어. 아... 진짜 눈이 저절로 감긴다. 
-
-&quot; 정말이지, 완벽해... 완벽한 해피엔딩이라구... ZZZ...ZZZ...ZZZ&quot;
-
-&lt;img src=&quot;images/B_24.png&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
--the end-
-
-[[처음으로 Replay -&gt;B_28 출근]] 
-[[작품 후기 -&gt; H_41]]
-
-&lt;audio src=&quot;sounds/B_24.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="25" name=" B_2 사라진 구름이" tags="" position="58,477" size="100,100">&quot;구름이가 보이지 않아!&quot;
-
-&quot;구름이가 사라졌다고?&quot;
-
-응? 구름이가 누구지? 아니, 뭐지? 
-구름이가 무엇이길래... 선배님들이 갑자기 분주해 지는 것일까?
-
-나는 너무 궁금했지만 하던 일을 멈춘 채, 바로 일어서서 &quot;구름이가 뭔가요?&quot; 라고 물어볼 용기는 아직 나지 않았어. 그래서 그룹웨어에 조심스레 &#39;조직원 검색&#39;을 시도했어.
-
-&#39;ㄱ ㅜ ㄹ ㅡ ㅁ&#39; 한글자 한글자 자음과 모음을 입력해 보았지만. 구름이라는 디캠프 멤버의 이름은 없었어. 그럼 뭘까? 
-
-
-
-[[구름이의 정체가 궁금하다면? -&gt; B_3 구름이는 누구]] </tw-passagedata><tw-passagedata pid="26" name=" B_3 구름이는 누구" tags="" position="57,594" size="100,100">하!하!하! 반가워 이준이. 난 디캠프 어딘가에 살고 있는 퀴즈의 요정 &#39;찌니&#39;야. 
-구름이의 정체가 궁금하다고? 그렇다면 내가 퀴즈를 낼께. 
-퀴즈를 맞추는 사이에, 넌 구름이에 대해 알게 될꺼야. 
-혹시 알아? 구름이 말고도 디캠프에 대해 더 많은 것을 알게 될런지. 
-
-
-&lt;img src=&quot;images/B_3.png&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-[[자! 그럼 퀴즈를 시작해 볼까? -&gt; H_5 구름이는 카트]]</tw-passagedata><tw-passagedata pid="27" name=" H_5 구름이는 카트" tags="" position="184,599" size="100,100">첫 번째 퀴즈! 간단하게 O.X 퀴즈로 풀어볼께!
-
-Q1. 구름이는 디캠프에서 사용하는 카트 (a.k.a 구루마)의 애칭이다. 
-&lt;img src=&quot;images/H_5.png&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-당신의 선택은???
-
-[[구름이는 굴러다니는 카드가 맞아! -&gt;H_6 오답]]
-[[카트가 구름이라고? 절대 아니야! -&gt;H_32 정답]]</tw-passagedata><tw-passagedata pid="28" name="H_6 오답" tags="" position="307,620" size="100,100">정말 그렇게 생각해? 안타깝지만 땡! 틀렸어.
-구름이는 카트가 아니야!
-
-하지만 디캠프에 카드가 있고, 그 친구가 중요한 역할은 한다는 것은 분명해. 
-디캠프에서는 매월 &lt;a href=&quot;https://dcamp.kr/investment/dday/&quot;&gt;스타트업 데모데이 (D.DAY)&lt;/a&gt;를 포함한 다양한 행사들이 열려.
-덕분에 디캠프에서 카트는 없어서는 안되는 정말 필요한 존재이지. 
-디캠프 카트의 애칭은 구름이가 아니라 &#39;구.루.마&#39;라는 거~ 
-
-
-
-[[다음 문제 -&gt;H_7 구름이는 정하님의 별명]] </tw-passagedata><tw-passagedata pid="29" name="H_9 구름이는 강아지" tags="" position="752,540" size="100,100">세 번째 퀴즈!
-
-구름이는 디캠프 패밀리사가 키우는 강아지 이름이다. 
-
-당신의 선택은???
-
-
-
-[[맞아! -&gt;H_11 정답]]
-[[아니야! -&gt;H_10 오답]]</tw-passagedata><tw-passagedata pid="30" name="H_11 정답" tags="" position="902,481" size="100,100">정답!!  맞았어. 
-
-&lt;img src=&quot;images/H_11.png&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-
-구름이는 디캠프의 패밀리사인 플레이어블이 키우는 강아지야.
-귀염뽀짝한 외모 덕분에 디캠프의 모든 직원들의 관심을 한 번에 받고 있지.
-디캠프 마스코트 구름이를 모르면 간첩이라구!
-
-
-
-좋아. 구름이가 누구인지는 이제 알았고. 그렇다면 [[도대체 구름이는 어디로 갔을까? -&gt;B_5 구름이 수색협조 요청]] </tw-passagedata><tw-passagedata pid="31" name="H_10 오답" tags="" position="912,611" size="100,100">음.. 이준이, 너는 센스가 있는 편은 아니군.
-나 이제 지쳤어. 퀴즈는 여기서 그만하자.
-
-&lt;img src=&quot;images/H_10.png&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-정답을 알려줄께.
-구름이는 디캠프의 패밀리사인 플레이어블이 키우는 강아지야.
-귀염뽀짝한 외모 덕분에 디캠프의 모든 직원들의 관심을 한 번에 받고 있지.
-디캠프 마스코트 구름이를 모르면 간첩이라구!
-
-
-
-[[도대체 구름이는 어디로 사라졌을까? -&gt;B_5 구름이 수색협조 요청]] 
-</tw-passagedata><tw-passagedata pid="32" name=" H_12 4층 라운지" tags="" position="771,1418" size="100,100">&lt;img src=&quot;images/H_12.png&quot; width=&quot;1100&quot; height=&quot;600&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-4층 라운지에는 업무를 보거나 회의를 할 수 있는 여러 종류의 테이블, 그리고 쉴 수 있는 빈백이 놓여 있어. 
-입주사들은 여기서 캐주얼하게 회의를 하거나, 채용 면접을 보기도 해.
-초록초록한 선정릉을 바로 앞에 두고 일을 할 수 있는 바로 이 자리가 디캠프에서 가장 인기가 많은 명당이지!
-이렇게 자유로운 라운지를 보고 있으면, 나도 괜히 더 열심히 살아야겠다는 자극을 받는다니깐.
-그나저나 구름이는 라운지에는 없는 것 같아.
-
-혹시, 몰래 회의실로 들어갔나?
-
-
-
-[[4-A 회의실로 -&gt;H_15 4층 회의실]]
-</tw-passagedata><tw-passagedata pid="33" name="H_15 4층 회의실" tags="" position="899,1420" size="100,100">4층에는 총 2개의 회의실이 있어. 중간에 문을 열어버리면, 두 개의 회의실을 하나로 합쳐서 조금 더 크게 공간을 활용할 수 있지. 
-회의실 바로 앞에 붙어있는 표에, 회의 시간을 예약하고 사용하면 돼.
-
-일단 &quot;대표는 듣기만 하는&quot; 4-A 회의실로 들어왔어.
-음, 여기도 없는 것 같아. 
-엇, 너무 열심히 구름이를 찾느라고 신경을 못쓰고 있었는데, 벌써 시간이 이렇게 됐단말이야? 어쩌지? 더 찾아본다고 내가 정말 구름이를 찾을 수 있을까?
-오늘 교수님이랑 중요한 미팅이 있어서 미리 회의자료를 검토해야 하는데 큰일이군.
-
-4-A 회의실에서 나와서 4-B 회의실로 들어갔어.
-&quot;산으로 가지 않는&quot; 4-B 회의실에도 구름이는 없어.
-
-이러다가 정말 회의도 늦고, 구름이도 못 찾을 것 같아. 
-
-
-
-[[서둘러서 다른 곳도 찾아보자 -&gt; H_16 4층 엔터룸]]</tw-passagedata><tw-passagedata pid="34" name=" H_16 4층 엔터룸" tags="" position="1026,1415" size="100,100">&lt;img src=&quot;images/H_16.png&quot; width=&quot;1100&quot; height=&quot;300&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-엔터룸으로 들어왔어.
-엔터룸은 식사를 하거나 탁구, 다트, 철권 등 게임을 하면서 쉴 수 있는 곳이야.
-초록초록한 선정릉을 바라보면서 먹는 점심은 꿀맛일 수밖에 없지.
-
-너무 열일을 하다가 몸이 찌뿌뚱해지면, 옆 사람을 쿡쿡 찔러서 탁구나 다트 내기를 하기도 하지.
-혹시 음식 냄새를 맡고 구름이가 엔터룸으로 들어왔나?
-충분히 가능성이 있지!
-
-
-[[탁구대 밑을 살펴보자. -&gt; H_17 탁구대 밑]]
-[[다트 게임기 뒤를 살펴보자. -&gt; H_18 다트 게임기 뒤]]
-</tw-passagedata><tw-passagedata pid="35" name=" H_17 탁구대 밑" tags="" position="1184,1348" size="100,100">엔터룸의 탁구대 밑을 찾아봤어. 
-아마 디캠프 탁구대는 직원들한테 제일 인기있는 곳일거야.
-탁구치는 곳이 뷰가 이렇게 좋은거 봤어?
-
-점심시간 이후에는 항상 탁구를 하고 있는 사람들이 있더라고. 
-더운 날엔 문을 열어놓고 격하게 탁구를 치다가 탁구공이 바깥으로 날아가버리기도 한대.
-
-지금은 너무 이른 아침이라 아무도 없는 것 같아.
-
-음.. 그런데,
-탁구대 밑에 구름이는 없는 것 같아.
-구름아!!! 대체 어디있는거야!! 나 이제 일해야 한단 말이야!!!
-
-
-[[야외 테라스로 -&gt; H_19 4층 야외테라스]]
-</tw-passagedata><tw-passagedata pid="36" name=" H_18 다트 게임기 뒤" tags="" position="1187,1479" size="100,100">엔터룸의 다트 게임기 뒤를 살펴보았어.
-다트 게임도 2인 모드로 짝을 지어서 할 수 있어서, 아주 치열한 내기를 할 수 있지.
-원래는 다트 게임도 줄을 서서 할 만큼 인기가 많은데, 
-지금은 너무 이른 아침이라 아무도 없는 것 같아.
-
-음.. 그런데,
-다트 게임기 뒤에 구름이는 없는 것 같아.
-구름아!!! 대체 어디있는거야!! 나 이제 일해야 한단 말이야!!!
-
-[[야외 테라스로 -&gt; H_19 4층 야외테라스]]</tw-passagedata><tw-passagedata pid="37" name="H_20 4층에서 초능력 사용" tags="" position="1642,1323" size="100,100">&lt;img src=&quot;images/B_21.jpg&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-&quot;이때 아니면 언제 쓰라는 거야!!! 지금이라구!!!&quot; 
-
-순간적이지만 사냥개 만큼 뛰어난 후각 능력을 가졌는데, 냄새맡는 초능력을 한번 쓰고나면 얼마지 않아 기진맥진 지쳐 잠드는 초능력자를 본적있어? 지금 출근한지 며칠, 아니 오늘은 몇시간 되지도 않았지만 난 알 수 있었어. 익숙한 쉼터에서 떨어져 어딘지 모를 곳에 웅크리고 있을 작고 귀여운 강아지를 위해서라면! 맞아. 지금이야. 
-
-&quot;허헝~ 후흡!! 허헝~ 후흡!후흡!&quot; 설마, 그냥 들숨과 날숨을 교차시키는 것 만으로 초능력이 발휘된다고 생각한 건 아니겠지? 
-
-&quot;허헝~ 후흡!! 허헝~ 후흡!후흡!&quot;
-
-&quot;허헝~ 후흡!! 허헝~ 후흡!후흡!&quot;
-
-
-
-
-[[다음 페이지-&gt;H_22 불행한 새드엔딩]]</tw-passagedata><tw-passagedata pid="38" name="H_22 불행한 새드엔딩" tags="" position="1839,1313" size="100,100">어.. 구름이가 느껴져. 
-여기가 어디지? 
-몇 번 맡아본 냄새이긴한데, 아직 나도 디캠프에 익숙하지 않아서 좀 헷갈려.
-어디서 맡아본 냄새지?
-4층인가? 2층인가? 
-너무 헷갈려.
-
-아, 아직 어디인지 제대로 파악하지 못했는데..! 
-벌써 눈이 감겨와.
-잠들지 않으려고 아무리 뺨을 때리고, 허벅지를 꼬집어봐도.. 아득해지는 정신은 돌아오지 않아.
-어쩌지, 나 지금 잠들어버리면 절대로 미팅 전까지 못깨어나....ㄴ........
-
-&quot;ZZZ...ZZZ...ZZZ&quot;
-
-&lt;img src=&quot;images/H_22.png&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
--the end-
-
-[[처음으로 Replay -&gt;B_28 출근]] 
-[[작품 후기 -&gt; H_41]]
-
-&lt;audio src=&quot;sounds/H_22.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="39" name="H_21 4층에서 초능력 미사용" tags="" position="1645,1476" size="100,100">나는 초능력을 쓰지 않기로 했어. 
-구름이는 모든 입주사 직원분들과 디캠프 직원분들이 아실 정도로 유명한 디캠프의 마스코트야.
-꼭 내가 찾지 않더라도, 다른 분들이 대신 찾아줄거라고 믿어.
-자, 이제 나는 미팅 준비를 하러 내려가자. 
-나에게 공식적으로 주어진 일을 하러 가는거야.
-
-
-
-[[다음 페이지로-&gt; H_23 의외의 해피앤딩]]
-</tw-passagedata><tw-passagedata pid="40" name=" H_19 4층 야외테라스" tags="" position="1366,1389" size="100,100">하.. 이제 4층은 다 찾아본 것 같아. 
-이제 한 곳 남았어. 바로 야외테라스!!!!!!
-&lt;img src=&quot;images/H_19.png&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-야외테라스도 뷰가 장난이 아니야. 
-디캠프는 선정릉이 가까이 있어서 어딜가나 초록초록하지만, 특히 4층 야외테라스는 더욱 뷰가 좋아.
-
-여름에는 시원한 바람을 맞으면서 일도 하고, 밥도 먹고, 담소도 나눌 수 있고,
-겨울에는 파라솔 난로를 켜면, 분위기가 그렇게 좋을 수 없어.
-
-그건 그렇고.
-구름이는 여기에도 없는 것 같네?
-
-하, 이젠 정말 한계야.
-이제 정말 미팅 시간이 얼마 남지 않았어.
-여기서 더 발품을 팔아서 구름이를 찾았다가는 중요한 미팅 준비를 하나도 못하고 그냥 들어가게 생겼어.
-
-
-
-[[다음 페이지로 -&gt;H_34]]
-</tw-passagedata><tw-passagedata pid="41" name=" H_23 의외의 해피앤딩" tags="" position="1801,1477" size="100,100">터덜터덜, 찝찝한 마음을 가지고 미팅 준비를 하러 2층으로 내려가려고 하는데, 
-어디선가 한숨소리가 들려.
-응? 엔터룸인가?
-아까 엔터룸 구석구석을 찾아봤는데, 분명 아무도 없었는데?
-
-[[다시 엔터룸으로 -&gt; H_30 의외의 해피앤딩]]
-</tw-passagedata><tw-passagedata pid="42" name="H_24 5층 사무실 안 탐색" tags="" position="794,1688" size="100,100">5층 사무실 안으로 들어왔어.
-역시나 모두들 열심히 일을 하고 계셨어.
-아.. 나도 얼른 미팅 준비를 해야할텐데 말이야. 마음이 너무 불편해.
-구름아, 대체 너 어디있니!!
-
-나는 문 바로 앞에 앉은 직원분부터 차례대로 구름이의 행방을 묻기로 했어.
-&quot;안녕하세요! 저는 디캠프 인턴 이준이인데요, 혹시 오늘 사무실 안에서 아기 골든리트리버를 보신적 있으세요?&quot;
-
-&quot;아, 안녕하세요. 아기 골든리트리버라면 구름이 말씀하시는건가요? 저희 5층 식구들도 구름이가 사라졌다는 소식을 듣고 사무실을 모두 뒤져보았지만, 구름이는 5층에는 없었어요. 대체 어디로 간 걸까, 저희도 많이 걱정이 되네요...&quot;
-
-이런, 구름이는 5층에도 없구나. 
-그나저나 구름이는 정말 디캠프의 마스코트인가봐.
-구름이가 없어졌다는 소식이 벌써 여기까지 퍼졌다니.
-
-5층에는 구름이가 없는 것 같으니, 헛수고 하지 말고 다른 곳을 찾아보자. 
-나는 어서 구름이를 찾고 미팅 준비를 해야한다고!
-
-
-
-[[2층 탕비실로 이동 -&gt; B_14]] </tw-passagedata><tw-passagedata pid="43" name="H_26 6층 다목적홀" tags="" position="799,1863" size="100,100">&lt;img src=&quot;images/H_26.jpg&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-다목적 홀에 들어왔어. 
-다목적 홀에서는 디캠프의 행사 뿐만 아니라 여러 회사들에서 공간을 빌려서 다양한 행사를 진행해. 
-대표적인 행사는 매달 마지막 목요일 저녁, 디캠프가 개최하는 데모데이야.
-150명의 청중, 전문투자자 및 업계전문가로 이루어진 심사위워단과 함께하는 스타트업의 데뷔무대이지.
-
-이렇게 넓은 공간을 언제 또 샅샅이 뒤져보지. 
-알록달록한 의자들을 하나씩 들어가면서 꼼꼼히 다목적홀을 살펴보았어.
-하.. 이렇게 넓은 공간에도 구름이는 없는 것 같아.
-
-
-
-[[다음 페이지로-&gt; H_38]]
-</tw-passagedata><tw-passagedata pid="44" name="H_27 6층에서 초능력 미사용" tags="" position="1103,1784" size="100,100">나는 초능력을 쓰지 않기로 했어. 
-아직 6층 하나 밖에 찾지 않았는데 벌써 발품 파는 것을 포기하기는 너무 일러. 
-조금 더 찾아보자.
-미팅 시간이 점점 다가오기는 하지만, 어딘지 모를 곳에서 혼자 무서움에 떨고 있을 구름이를 생각하면.. 
-내 시간을 조금 더 투자하는 것은 전혀 아깝지 않아.
-
-
-[[다음 페이지-&gt; B_10 5층]] </tw-passagedata><tw-passagedata pid="45" name="H_28 6층에서 초능력 사용" tags="" position="1105,1920" size="100,100">&quot;이때 아니면 언제 쓰라는 거야!!! 지금이라구!!!&quot; 
-
-순간적이지만 사냥개 만큼 뛰어난 후각 능력을 가졌는데, 냄새맡는 초능력을 한번 쓰고나면 얼마지 않아 기진맥진 지쳐 잠드는 초능력자를 본적있어? 지금 출근한지 며칠, 아니 오늘은 몇시간 되지도 않았지만 난 알 수 있었어. 익숙한 쉼터에서 떨어져 어딘지 모를 곳에 웅크리고 있을 작고 귀여운 강아지를 위해서라면! 맞아. 지금이야.
-
-
-
-[[다음 페이지로 -&gt; H_39]]
-</tw-passagedata><tw-passagedata pid="46" name=" H_30 의외의 해피앤딩" tags="" position="1939,1475" size="100,100">한숨소리는 창고에서 들리는 것 같아. 
-창고에는 디캠프에서 열리는 여러 가지 행사들을 위해 필요한 물품들이 보관되어 있어.
-창고에서 무언가를 찾고 있는 디캠프 직원의 한숨소린가?
-근데 뭔가... 이상해...! 
-비밀번호를 치고 창고로 들어갔어.
-한숨소리는 나는데, 왜 아무도 안보이지? 
-조금 무섭긴하지만, 무서움을 호기심이 이겨버려서 더 깊숙한 창고로 들어가 보았어.
-
-&quot;아.. 피곤해...&quot;
-
-?!?!?!?!
- 
-이게 무슨 소리지..? 한숨 쉬며 말하는 설마 강아지...?
-바로 구름이었어!!
-눈을 비벼 보았어. 꿈인가?
-
-[[다음 페이지로 -&gt;H_35]]
-</tw-passagedata><tw-passagedata pid="47" name="H_31 의외의 해피앤딩" tags="" position="2443,1477" size="100,100">띠링~!
-&#39;구름이 찾았어요. 다친 곳도 없고 괜찮으니 모두 걱정마세요!&#39;
-전체 단톡방에 메세지를 남겼어. 
-
-대표님이 올라와서 구름이를 안고 가셨어.
-&quot;정말 고마워요. 사례를 싶은데, 언제 한 번 맛있는 점심을 함께 해요.&quot;
-&quot;네, 다친 곳이 없어서 정말 다행이에요. 구름이가 참 귀엽네요. 종종 구름이 보러 놀러가도 될까요?&quot;
-
-&quot;물론이죠, 언제든지요!&quot;
-
-구름이는 대표님 품에 안겨 갑자기 찡끗-! 윙크를 했어.
-
-만세. 이제 회의 준비할 수 있다!
-
-
-
-[[다음 페이지로 -&gt;H_39 의외의 해피앤딩]]
-</tw-passagedata><tw-passagedata pid="48" name="H_33" tags="" position="7,227" size="100,100">지하철역으로 가는 길에 주인하고 산책을 하고 있는 귀여운 강아지를 봤어.
-본가에서 가족들이랑 지내고 있는 머루가 생각 나 정신 없이 강아지를 쳐다봤어.
-역시 세상의 모든 강아지는 귀여워. 귀여운게 세상을 구한다고!
-다시 정신을 차리고 지하철을 타러 가는데, 눈 앞에 회사까지 바로 가는 버스가 있어.
-일찍 나와서 출근 시간까지는 넉넉해.
-
-&lt;img src=&quot;images/H_33.png&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-[[계획대로 지하철을 타고 회사로 -&gt; H_3 지하철 출근]]
-[[눈 앞에 있는 버스를 타고 회사로 -&gt;H_4 버스 출근]]
-
-</tw-passagedata><tw-passagedata pid="49" name="H_7 구름이는 정하님의 별명" tags="" position="456,564" size="100,100">두 번째 퀴즈!
-
-구름이는 총무팀 인턴 정하님 별명이다.
-
-&lt;img src=&quot;images/H_7.png&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-당신의 선택은???
-
-
-[[다비드 같은 곱슬머리를 봐! 그가 구름이일 꺼야! -&gt;H_8 오답]]
-[[아니야! 구름이라고 불리기엔 어깨가 너무 넓은데?  -&gt;H_33 정답]]
-</tw-passagedata><tw-passagedata pid="50" name="H_32 정답" tags="" position="315,482" size="100,100">오~ 촉 좋은데?
-구름이는 카트의 애칭은 아니야!
-디캠프에서는 매월 데모데이를 포함한 &lt;a href=&quot;https://dcamp.kr/now&quot; target=_blank&gt;다양한 행사&lt;/a&gt;들이 열려. 덕분에 카트는 디캠퍼를 위해 열일을 하고 있지.
-
-하지만 디캠프 카트의 이름은 구름이가 아니라 &#39;구.루.마&#39;라는 거~ 
-어때? 시크해?
-
-헷갈릴만한 함정에 빠지지 않고 아주 잘 맞췄어. 
-하지만, 아직 진짜 구름이의 정체를 확인한 것은 아니지? 
-그렇다면 두번째 퀴즈를 풀어 볼까?
-
-
-
-[[다음 문제 -&gt;H_7 구름이는 정하님의 별명]] </tw-passagedata><tw-passagedata pid="51" name="H_8 오답" tags="" position="598,615" size="100,100">땡땡땡~
-정하님이 구름같은 머리 스타일을 가진건 나도 인정해.
-하지만 구름이는 정하님의 별명이 아니지.
-패셔니스타 정하님은 항상 구름 머리를 유지하기 위해 아침마다 30분씩 드라이를 한다고해.
-역시 노력없이 되는 일은 아무것도 없다니까!
-
-
-
-[[다음 문제 -&gt;H_9 구름이는 강아지]] </tw-passagedata><tw-passagedata pid="52" name="H_33 정답" tags="" position="596,483" size="100,100">정하님의 구름같은 헤어 스타일을 보고도 넘어가지 않는다니. 
-너 꽤 촉이 좋은 편이구나? 여간해서 함정에 빠지지 않네?
-
-패셔니스타 + 다비드 정하님은 구름 머리 유지를 위해 아침마다 30분씩 드라이를 한다고해.
-역시 노력없이 되는 일은 아무것도 없다니까!
-
-좋아, 그럼 이제 진짜 구름이가 누군지 알아내 볼까?
-
-
-
-[[다음 문제 -&gt;H_9 구름이는 강아지]] </tw-passagedata><tw-passagedata pid="53" name="B_28 출근" tags="" position="483,5" size="100,100">인턴 도전 삼수 끝에 드디어 입성한 디캠프. 꿈꿔왔던 일터로 출근하는 하루하루, 내일이면 출근 5일 차이지만 아직도 믿기지 않아서 때때로 볼을 꼬집어 보곤 한다구. 
-어제도 긴장해서 어리바리 했던것 같아 아쉽지만 말야. 내일부터는 일잘러로 인정 받아, 디캠프의 레전드 인턴으로 길이길이 남아야지!
-
-&lt;img src=&quot;images/B_28.png&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-아?! 안녕!! 
-나는 이준이라고 해. 이제 부터 나는 곧 너. 우리 인사를 나누어 볼까? 잘 부탁해. 이제 부터 너의 선택은 곧 나의 선택이 될테니까 말야. 
-앞으로 어떤 일을 겪게 될런지, 우리 모두 아직은 잘 모르지만 어떤 상황이라고 해도 우리가 힘을 합쳐야 겠지? 
-
-그렇다면, 나에 대해서 조금 알려 줄께. 미리 알아두면 좋은 사실이 있어. 사실은.... 난 말야. 초능력자야. 
-
-
-
-[[내 초능력이 궁금해? -&gt; B_25]]</tw-passagedata><tw-passagedata pid="54" name=" B_25" tags="" position="362,4" size="100,100">초능력이 있다는 것을 알게된 건... 그래 오래됬어. 처음엔 비염인 줄 알았거든. 그런데 보통 비염이 있으면 냄새를 잘 맡아야 하는데 난 그 반대였어. 
-사실, 냄새를 못맡는 것도 고통스럽지만, 그 반대도 고충이 커. 뭐든 적당한게 좋은데 말이지. 난 그렇지 못했어. 
-
-어느 정도냐고?  사냥개의 후각 능력은 사람의 1만배 이상이라고 해. 그 정도로만 설명해 두자. 
-부러워 하는거야? 그럴 수 있지. 네가 초능력자가 아니라면, 이건 정말 특별한 경험이 될테니까. 
-
-그런데 말야... 한가지 알아두어야 할 사실이 더 있어.  내 초능력엔 부작용이 있거든. 좀 심각한거야. 
-
-
-
-[[초능력 부작용-&gt; B_26]]</tw-passagedata><tw-passagedata pid="55" name=" B_26" tags="" position="249,5" size="100,100">내 초능력은 좀 들쑬날쑥해. 한번 냄새를 힘껏 맡으면, 갑자기 기진맥진 잠에 빠질때가 있어. 그럴때면 속수무책이라 그냥 잠들 수 밖에 없다구. 
-&lt;img src=&quot;images/B_26.png&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-초능력이 얼마동안 지속되냐고? 잘 몰라. 어떤 날은 몇 시간 이상 길게. 어떤 날은 몇 분. 
-잠은 얼마 동안 자냐고? 그것도 잘 몰라. 어떤 날은 냄새를 맡자 마자 바로. 어떤 날은 몇 시간 지나서 평온하게. 
-
-
-......... 허술하지? 이해해. 나도 처음엔 이런 걸 초능력이라 할 수 있을까 고민했으니까. 하지만, 어쩌겠어. 적응할 수 밖에. 
-
-하지만 한가지 좋은 소식도 알려줄께. 
-그건 말이지, 내가 초능력을 제어할 수 있다는 거야. 오랜 시간 연습을 통해 내가 원할 때만 초능력을 쓸 수 있는 사람이 됬어.  
-
-
-그러니까 너도 조심해야 해. 꼭 필요할 때, 꼭 필요한 순간에 네 운명을 걸고 초능력을 사용해야 한다고. 
-
-
-
-[[그런 초능력을 넌 어디다 주로 썼던 거니? -&gt; B_27]]</tw-passagedata><tw-passagedata pid="56" name=" B_27" tags="" position="134,6" size="100,100">어려운 질문이지만, 네가 물어보는 것이니까. 솔직하게 대답할께. 이제부터 너는 곧 나, 나는 곧 네가 될테니까. 
-
-난, 주로 집에서 초능력을 사용해. 부작용을 최소화하면서도 안전하게 효과를 누릴 수 있거든. 
-난 약간의 불면증이 있는데, 잠이 오지 않을때 침대에 누워서 뭐든 한가지 냄새를 맡아. 그러면 어느새 스르르 꿀잠에 빠져들지. 
-디캠프에 출근하면서, 내 초능력이 참 쓸모 있어졌어. 늦잠을 자지 않으려면, 일찍 잠들어야 하는데... 그것 쉽지 않은 일이잖아. 
-
-하지만, 초능력이 있다면 문제 없지. ^^
-너라면, 언제 초능력을 사용할래? 이제 부터 네가 고민해야 할 문제야.
-
-난 너를 믿을께. 이제 부터 너는 곧 나, 이준이니까. 어때? 허술한 초능력자로 살아볼 준비가 되었니?   
-
-준비가 되었다면 시작해줘! 
-
-
-
-[[이준이의 하루로 풍덩! -&gt;H_1 출근 전날]] </tw-passagedata><tw-passagedata pid="57" name="H_34" tags="" position="1492,1387" size="100,100">&lt;img src=&quot;images/B_20.jpg&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-여기서 초능력을 쓴다면, 나는 구름이를 바로 찾을 수 있을꺼야.
-하지만.. 언제 잠에 빠져버릴지 모르지. 
-구름이를 찾으려다가, 미팅이 시작되기도 전에 회사에서 잠이 들어버릴 수도 있다고!!
-정말 미치겠군. 이젠 결단을 내려야 할 때야.
-나는!!!!!!!!!!!!!!!!
-
-
-
-[[내 결정은 말야! 초능력을 사용하는 거야 -&gt;H_20 4층에서 초능력 사용]]
-[[아직은 안돼. 그리고 여기 있을 것 같지도 않아 -&gt;H_21 4층에서 초능력 미사용]]</tw-passagedata><tw-passagedata pid="58" name="H_35" tags="" position="2062,1476" size="100,100">&quot;구름이...? 네가 구름이니..? 너 말 할줄 알아..?&quot;
-나도 모르게 소리를 질렀어.
-
-
-&quot;아우, 깜짝이야! 목소리 낮춰! 사람말 하는 개 처음봐? 쉿!&quot;
-&lt;img src=&quot;images/H_35.png&quot; width=&quot;400&quot; height=&quot;300&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-응? 지금 내가 꿈을 꾸고 있는 건 아닐까?
-분명히 강아지인데 나한테 성질을 내고.. 말을 하고 있어!!
-
-&quot;뭐.. 너 뭐야..???&quot;
-
-&quot;나 피곤해. 너도 내가 귀엽니?? 난 귀찮아 죽겠다고! 나는 조용한걸 좋아하는 내성적인 강아지야. 혼자만의 시간이 반드시 필요하다고. 난 귀엽지 않아. 난 성숙한 편이라고. 스트레스... 나도 혼자만의 시간 좀 갖자. 이제 찾지마! 나 찾지 말라고!!!!!&quot;
-
-쟤 뭐야..? 귀여운 얼굴에 아직도 아기 같은데, 왜 저렇게 까칠하지? 사춘긴가..?
-그럼 구름이는 실종된게 아니라, 잠수 탄거였네?
-갑자기 억울해졌어. 
-
-
-
-[[다음 페이지 -&gt;H_36]]</tw-passagedata><tw-passagedata pid="59" name="H_36" tags="" position="2185,1479" size="100,100">&quot;구름아. 그래도 다들 얼마나 너를 걱정하고 있는지 몰라. 말은 하고 나왔어야지!&quot;
-
-&quot;아이고~ 너 잠수 한 번도 안타봤어? 원래 잠수는 말 없이 타는거야. 
-그리고, 내가 어떻게 말을 하니? 근데.. 너는 생각보다 안놀란다?&quot;
-
-&quot;나도 초능력 하나가 있거든. 냄새 좀 맡는 편이야.&quot;
-&quot;오~ 그래, 어쩐지. 뭔가 좀 다르다 했어. 너도 초능력이 있구나?&quot;
-
-우리는 초능력을 갖고 있는 존재만이 느낄 수 있는 고충에 함께 공감하며 한동안 깊은 대화를 나누었어.
-
-
-
-[[다음 페이지로 -&gt;H_37]]
-</tw-passagedata><tw-passagedata pid="60" name="H_37" tags="" position="2309,1477" size="100,100">&quot;구름아. 그래도 우리 디캠프 전체가 너 찾느라고 발칵 뒤집혔어. 어쩔거야?&quot;
-&quot;하.. 나 좀 그냥 내버려둬.&quot;
-
-&quot;구름아, 그래도 돌아가자. 그리고 나 회의 준비도 해야해.&quot;
-&quot;대신 내가 혼자만의 시간이 필요할 때, 네가 날 좀 도와줘야겠어.&quot;
-
-&quot;그래, 걱정하지마. 비밀 유지는 기본이지.&quot;
-&quot;좋아! 이제 가자.&quot;
-
-
-[[다음 페이지로 -&gt;H_31 의외의 해피앤딩]]
-</tw-passagedata><tw-passagedata pid="61" name="H_39 의외의 해피앤딩" tags="" position="2576,1482" size="100,100">&quot;준이님, 아주 준비를 잘 해왔네. 그래, 앞으로도 미팅이 있으면 이렇게 미리 자료 준비해두고! 이렇게 회의록 정리하면 돼요!&quot;
-
-&quot;네, 감사합니다!&quot;
-
-처음하는 중요한 미팅였지만, 충분히 준비한 덕분에 칭찬을 받을 수 있었어. 
-시작이 좋군!
-
-게다가 디캠프에 또 다른 초능력을 가진 생명체를 만나다니. 
-정말 생각지도 않은 행운이야.
-혼자 초능력을 꽁꽁 숨기고 살던 내게도, 드디어 대나무 숲이 생겼어. 
-심지어 귀엽기까지 한 대나무 숲이라니!
-
-나는 구름이를 찾은 1등 공신이 되었고, 그 덕분에 플레이어블 대표님과 함께 점심 약속을 잡을 수 있었어. 게다가 중요한 미팅도 준비까지 완벽하게 해내서 교수님과 팀장님께 받았지.
-
-여러모로 잊을 수 없는 하루였어.
-앞으로도 오늘처럼만 하자, 이준이! 화이팅!
-
-&lt;img src=&quot;images/H_39.png&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
--the end-
-
-[[처음으로 Replay -&gt;B_28 출근]] 
-[[작품 후기 -&gt; H_41]]
-
-&lt;audio src=&quot;sounds/B_24.mp3&quot; autoplay&gt;
-</tw-passagedata><tw-passagedata pid="62" name=" H_38" tags="" position="932,1864" size="100,100">어떡하지. 솔직히 나는 6층 다목적홀이 제일 넓어서, 다목적홀에 있을거라고 마음속으로 확신하고 있었어.
-그런데 6층이 아니라고..? 마음이 점점 급해져. 
-
-&lt;img src=&quot;images/H_38.png&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-하 그냥 초능력 써서 구름이 찾아버릴까? 
-나같은 초능력자한테 구름이를 찾는건 껌이지!
-언제 잠들지는 몰라도... 그래도 바로 잠드는건 아니라고!
-
-
-하지만.. 언제 잠에 빠져버릴지는 나도 몰라.
-구름이를 찾으려다가, 미팅이 시작되기도 전에 회사에서 잠이 들어버릴 수도 있다고!!
-정말 미치겠군. 이젠 결단을 내려야 할 때야.
-나는!!!!!!!!!!!!!!!!
-
-
-[[아직은 안돼. 그리고 여기 있을 것 같지도 않아 -&gt;H_27 6층에서 초능력 미사용]]
-[[내 결정은 말야! 초능력을 사용하는 거야 -&gt;H_28 6층에서 초능력 사용]]</tw-passagedata><tw-passagedata pid="63" name=" H_39" tags="" position="1254,1923" size="100,100">&lt;img src=&quot;images/B_21.jpg&quot; width=&quot;800&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-&quot;허헝~ 후흡!! 허헝~ 후흡!후흡!&quot; 설마, 그냥 들숨과 날숨을 교차시키는 것 만으로 초능력이 발휘된다고 생각한 건 아니겠지? 
-
-&quot;허헝~ 후흡!! 허헝~ 후흡!후흡!&quot;
-
-&quot;허헝~ 후흡!! 허헝~ 후흡!후흡!&quot;
-
-
-
-[[다음 페이지로 -&gt;H_22 불행한 새드엔딩]] </tw-passagedata><tw-passagedata pid="64" name="H_40" tags="" position="656,803" size="100,100">메시지를 읽고 나도 벌떡 일어섰어. 어쩌면 지금 이순간이야 말로 내 초등력을 사용할 때일지 몰라. 항상 냄새를 이렇게 잘 맡는데, 이 능력을 어디에 써야할런지 고민스러웠잖아. 물론, 내 초능력이란 냄새를 한번 맡은 뒤 언제 곯아 떨어질지 모르는....어쩐지 허술하고 허점 투성이의 초능력이었지만 말이야.
-
-&quot;좋아!! 일단 다 뒤져보자!!&quot; 난 잠시 시계를 보았어. 회의 시간까지 아직 1시간 남아있어. 나는 초능력자야. 사냥개 같은 코를 가졌지. 이 능력을 써야할까? 구름이는 어디에 있을까? 일단, 구름이의 냄새가 무엇인지 알아야 해.
-
-
-
-[[구름이 냄새 정보를 수집하려면? -&gt; B_6 구름이의 냄새]]</tw-passagedata><tw-passagedata pid="65" name=" H_41" tags="" position="2119,1202" size="100,100">&lt;img src=&quot;images/H_41.png&quot; width=&quot;700&quot; height=&quot;500&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
-
-&gt;권보연 교수
-연세대학교 학생들을 만나기 전, 디캠프 TA인 호정 인턴의 샘플 작품을 미리 지도하면서 &lt;인터랙티브 스토리텔링 디자인&gt; 수업을 준비했습니다. 
-
-계절 수업은 기간이 짧고, 특히 바이러스 상황으로 인해 온라인 수업으로 진행하다 보니 여러 가능성을 열어두고 실습 수업을 연습해야만 했어요. 교수로서도 이번 학기는 그 어떤 때 보다 긴장하고, 도전하는 마음으로 준비했어요.  
-
-물론, 여러분들을 만날 수 있다는 기대와 설렘이 없었다면 시작하지 못했을꺼에요. 
-학생 여러분들이 수업을 어렵지 않게 느끼면서도 인터랙티브 스토리 디자인을 위한 기초 이론과 제작 역량을 탄탄히 갖추기를 기대하면서요. 
-
-누구나 이야기를 말하고, 그것의 가능성에 기대를 갖지만 더 좋은 이야기를, 독자와 창작가가 상호작용하면서 함께 새로운 경험을 창조할 수 있는지에 대한 고민과 공부는 아직도 갈길이 멀다고 생각해요. 연세대학교 학생들도 16일 간의 수업을 통해, 팀원들과의 협력을 통해, 스스로 고민하고 생각하고 연습하는 시간 속에서 호정 인턴처럼 흥미로운 작품을 만들 수 있겠죠? 
-
-누구나 창작할 수 있는 시대, 더 새롭고 더 의미있고 더 감각적인 이야기의 탄생을 기다리겠습니다. 어렵다는 생각보다 호기심을 먼저, 혼자 부딫히기 보다 팀원들과 더 많이 대화하면서 우리 끝까지 꼭 완주해요. 모두 파이팅!!!
-
-
-
-&gt;호정인턴
-코딩을 하지 않고도 이렇게 선택형 스토리텔링 작품을 만들 수 있다는 게 신기했어요.
-재미있는 이야기는 &#39;관심&#39;에서 시작한다는 것을 느꼈어요.
-재미있는 작품을 만들기 위해서 그간의 디캠프 인턴 생활을 돌아봤고, 
-디캠프 곳곳의 사진을 찍으면서 익숙한 곳들의 예쁨을 느낄 수 있었어요.
-우리 회사를 보다 재미있게 소개할 수 있어서 즐거웠고, 뿌듯합니다.
-
-
-
-&lt;a href=&quot;https://forms.gle/GidvwzaDJm3sHSBz8&quot; target=_blank&gt;허술한 초능력자, 이준이의 인턴 생활 응원하기&lt;/a&gt;</tw-passagedata></tw-storydata>
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+</script><tw-passagedata pid="1" name="Start" tags="" position="66.99999999999997,0" size="100,100">&lt;img src=&quot;images/J1.png&quot; width=&quot;500&quot; height=&quot;250&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
+
+[[시작하기 -&gt;N_1]]</tw-passagedata><tw-passagedata pid="2" name="WaitingQue" tags="WaitingQue" position="487,192" size="100,100">{
+(live: 0.5s)[
+(set:$checkEffect to 1)\
+(set:$textNum to it +1)\
+(set: $typewriterPos to 1)\
+(set:$overNumCount to it +1)\
+(stop:)
+]
+}
+</tw-passagedata><tw-passagedata pid="3" name="N_1" tags="" position="282.33333333333337,15" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;딸랑딸랑\&quot;
+&quot;,&quot;\&quot;이연희!  &quot;,&quot;재고 정리하라고 했더니 창고에서 뭐라도 몰래 먹고 있냐? &quot;,&quot;빨리 빨리좀 해라. &quot;,&quot;손님 계산 기다리고 있잖아!\&quot;
+
+&quot;,&quot;\&quot;네~ 지금 나갈게요!\&quot;
+&quot;,&quot;자기는 밖에 있으면서 자기가 하면 어디가 좀 덧나나.
+&quot;, &quot;그래도 돈은 제때 제때 잘 주니까 해야지 뭐 에휴...
+&quot;,&quot;나는 조용히 중얼거리면서 창고 밖으로 나왔어.
+&quot;,&quot;대학교 1학년 때부터 3년 넘게하고 있는 편의점 알바지만 점주라는 저 사람은 도저히 적응이 안되네...
+&quot;,&quot;이번달까지만 하고 알바를 바꾸던지 해야지...
+&quot;,&quot;\&quot;삼천 팔백원입니다. 봉투 필요하세요?\&quot;
+&quot;,&quot;\&quot;괜찮아요. &quot;,&quot;근데 혹시 번호 좀 알 수 있을까요?\&quot;
+&quot;,&quot;남자가 멋적은 듯이 머리를 긁적였어.
+&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+         (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+           var audio = new Audio();
+              audio.src = &quot;sounds/DoorBell.wav&quot;;
+           audio.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 11)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/Beep.wav&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 8)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio = new Audio();
+              audio.src = &quot;sounds/StoreroomWalk.mp3&quot;;
+           audio.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[번호를 알려줄까...? -&gt;N_2]]\
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="4" name="Untitled Passage" tags="" position="1328,296" size="100,100">(display: &quot;A_1Script&quot;)\
+(set: $typewriterText to &quot;\&quot;딸랑딸랑\&quot;
+
+&quot;)
+&lt;audio src=&quot;/C:/Users/klous/OneDrive/Desktop/DiaryData/sounds/DoorBell.wav&quot; autoplay&gt;
+{
+	
+	(live: 0.6s)[
+	(stop:)
+	(set: $textNum to 2)
+	(set: $typewriterPos to 1)
+	(set: $typewriterText to &quot;\&quot;이연희! 재고 정리하라고 했더니 창고에서 뭐라도 몰래 먹고 있냐? 빨리 빨리좀 해라. 손님 계산 기다리고 있잖아!\&quot;
+	
+	&quot;)
+	]
+	
+	(live: 4.7s)[
+	(stop:)
+	(set: $textNum to 3)
+	(set: $typewriterPos to 1)
+	(set: $typewriterText to &quot;\&quot;네~ 지금 나갈게요!\&quot;
+
+	&quot;)
+	]
+	
+	(live: 6s)[
+	(stop:)
+
+	(set: $textNum to 4)
+	(set: $typewriterPos to 1)
+	(set: $typewriterText to &quot;자기는 밖에 있으면서 자기가 하면 어디가 좀 덧나나.
+그래도 돈은 제때 제때 잘 주니까 해야지 뭐 에휴...
+&quot;)
+	]
+	
+	(live: 10s)[
+	(set: $textNum to 5)
+	(set: $typewriterPos to 1)
+	(set: $typewriterText to &quot;나는 조용히 중얼거리면서 창고 밖으로 나왔다.
+	&quot;)
+    	(stop:)
+	]
+	
+	(live: 12s)[
+	(set: $textNum to 6)
+	(set: $typewriterPos to 1)
+	(set: $typewriterText to &quot;대학교 1학년 때부터 3년 넘게하고 있는 편의점 알바지만 점주라는 저 사람은 도저히 적응이 안된다.
+생활비 때문에 어쩔 수 없이 참고 일하는 중이다.
+&quot;)
+    	(stop:)
+	]
+	
+	(live: 17s)[
+	&lt;audio src=&quot;/C:/Users/klous/OneDrive/Desktop/DiaryData/sounds/Beep.wav&quot; autoplay&gt;
+	(set: $textNum to 7)
+	(set: $typewriterPos to 1)
+	(set: $typewriterText to &quot;\&quot;삼천 팔백원입니다. 봉투 필요하세요?\&quot;
+	&quot;)
+    	(stop:)
+	]
+	
+	(live: 18.5s)[
+	(set: $textNum to 8)
+	(set: $typewriterPos to 1)
+	(set: $typewriterText to &quot;\&quot;괜찮아요. 근데 혹시 번호 좀 알 수 있을까요?\&quot;
+	&quot;)
+    	(stop:)
+	]
+	(live: 20.5s)[
+	(set: $textNum to 9)
+	(set: $typewriterPos to 1)
+	(set: $typewriterText to &quot;남자가 멋적은 듯이 머리를 긁으며 물어본다.
+	
+	&quot;)
+    	(stop:)
+	]
+}
+
+
+</tw-passagedata><tw-passagedata pid="5" name="Untitled Passage 1" tags="" position="1103,654" size="100,100">(live: 1s)[
+&lt;script&gt;
+$(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;/C:/Users/klous/OneDrive/Desktop/DiaryData/images/J3.jpg&quot;; style=&quot;display:block;&quot;/&gt;&#39;);
+       &lt;/script&gt;]
+	   
+	   [[d]]</tw-passagedata><tw-passagedata pid="6" name="A_2Script" tags="" position="988,15" size="100,100">{
+	(set: $typewriterPos to 1)
+	(set:$overNum to 0)
+	(set: $textNum to 1)
+	(set: $textNumCount to 1)
+
+	|typewriterOutput&gt;[]
+
+	
+	(live: 20ms)[
+		(if: $textNum is 1)[
+			(if:$overNum is 0)[
+			  (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+			  (set: $typewriterPos to it + 1)
+			  (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+			  (set:$overNum to 1)
+			  ]
+			  
+			]
+		]
+		
+		(if: $textNum is 2)[
+			(if:$overNum is 1)[
+			&lt;audio src=&quot;/C:/Users/klous/OneDrive/Desktop/DiaryData/sounds/DoorBell.mp3&quot; autoplay&gt;
+			  (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+			  (set: $typewriterPos to it + 1)
+			  (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+			  
+			  (set:$overNum to 2)
+			  ]
+			  
+			]
+		]
+		
+	(if: $textNum is 3)[
+			(if:$overNum is 2)[
+			  (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+			  (set: $typewriterPos to it + 1)
+			  (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+			  (set:$overNum to 3)
+			  ]
+			  
+			]
+		]
+			(if: $textNum is 4)[
+			(if:$overNum is 3)[
+			  (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+			  (set: $typewriterPos to it + 1)
+			  (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+			  (set:$overNum to 4)
+			  ]
+			  
+			]
+		]
+		
+		(if: $textNum is 5)[
+			(if:$overNum is 4)[
+			  (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+			  (set: $typewriterPos to it + 1)
+			  (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+			  
+			  (set:$overNum to 5)
+			  
+			  ]
+			  
+			]
+		]
+		
+		(if: $textNum is 6)[
+			(if:$overNum is 5)[
+			  (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+			  (set: $typewriterPos to it + 1)
+			  (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+			  
+			  (set:$overNum to 6)
+			  
+			  ]
+			  
+			]
+		]
+		
+		(if: $textNum is 7)[
+			(if:$overNum is 6)[
+			  (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+			  (set: $typewriterPos to it + 1)
+			  (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+			  
+			  (set:$overNum to 7)
+			  
+			  ]
+			  
+			]
+		]
+		(if: $textNum is 8)[
+			(if:$overNum is 7)[
+			  (append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
+			  (set: $typewriterPos to it + 1)
+			  (if: $typewriterPos is $typewriterText&#39;s length + 1)[
+			  
+			  (set:$overNum to 8)
+			  (stop:)
+			  [[스터디 하러 가기 -&gt; s]]
+			  ] 
+			]
+		]
+	]
+}
+</tw-passagedata><tw-passagedata pid="7" name=" s" tags="" position="1187,76.33333333333333" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="8" name="N_2" tags="" position="292.6666666666667,156.66666666666666" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;네? &quot;,&quot;아... &quot;,&quot;제가 남자친구가 있어서요.\&quot;
+&quot;,&quot;\&quot;아 그럼 혹시 친구라도 할 수 있...  
+나는 남자의 말이 끝나기도 전에 끊으며 말했어.
+\&quot;죄송합니다. 안녕히가세요\&quot;
+&quot;,&quot;사실 뻥이야. &quot;,&quot;남자친구는 무슨...
+&quot;,&quot;역시 내가 이성에게 인기가 없는 편은 아니란 말이지 히히
+&quot;,&quot;하지만 그러면 뭐하냐... 
+&quot;,&quot;알바까지 하면서 대학교 막학기를 다니는 취준생 신세인데...
+&quot;,&quot;연애하려면 몸이 두개는 더 있어야 겠다...
+&quot;,&quot;
+&quot;,&quot;나는 머리 속으로 이런저런 신세한탄을 하다가 시계를 쳐다봤어
+&quot;,&quot;어? &quot;,&quot;벌써 취준 스터디갈 시간이네!
+&quot;,&quot;스터디 신난다아...ㅎㅎ
+&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)\
+		   [[스터디 장소로 가자! -&gt;N_3.1]]\
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="9" name="N_4" tags="" position="565.3333333333333,568.3333333333334" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;저도 할게요! &quot;,&quot;발제...\&quot;
+&quot;,&quot;나도 모르게 손을 들고 말을 해버렸어.
+&quot;,&quot;청송씨가 뒤로 몸을 틀고 나를 바라보더니 싱긋 웃음을 지어보였어.
+&quot;,&quot;웃음은 또 왜 이렇게 매력적인거지... &quot;,&quot;나도 같이 웃어주고 싶었지만 귀가 빨개지는 것 같아서 고개를 돌려버렸어.
+&quot;,&quot;\&quot;연희씨, &quot;,&quot;저도 연희씨랑 같이 했으면 좋겠다고 생각했는데 잘해봐요.\&quot;
+&quot;, &quot;\&quot;시간 괜찮으면 스터디 끝나고 잠시 얘기할까요?\&quot;
+&quot;,&quot;\&quot;ㄴ..&quot;,&quot;네\&quot;
+&quot;,&quot;대답하는데 나도 모르게 떨렸는지 말이 더듬더듬 나왔어.&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+         (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio = new Audio();
+              audio.src = &quot;sounds/HandUp.wav&quot;;
+           audio.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)\
+		   [[일단 스터디가 끝나지 않았으니 스터디에 집중하자.-&gt;B_1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="10" name="N_5" tags="" position="249.66666666666666,568.6666666666667" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot; &quot;,&quot;\&quot;우와 이연희가 걸렸다! ㅋㅋㅋㅋ\&quot;
+&quot;,&quot;헐! 나라니... &quot;,&quot;발제 진짜 싫은데...
+&quot;,&quot;혹시 몰라? &quot;,&quot;이 기회로 청송씨랑 더 친해질 수도 있지 뭐! &quot;,&quot;라며 나는 긍정적으로 생각하기로 했어.
+&quot;,&quot;청송씨가 몸을 돌려 뒤에 앉은 나를 바라보더니 싱긋 웃음을 지어보여.
+&quot;,&quot;웃음은 또 왜 이렇게 매력적인거지...
+&quot;,&quot;\&quot;연희씨, &quot;,&quot;저도 연희씨랑 같이 했으면 좋겠다고 생각했는데 잘해봐요.\&quot;
+&quot;,&quot;\&quot;시간 괜찮으면 스터디 끝나고 잠시 얘기할까요?\&quot;
+&quot;,&quot;\&quot;ㄴ..&quot;,&quot;네\&quot;
+&quot;,&quot;대답하는데 나도 모르게 떨렸는지 말이 더듬더듬 나왔어.&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+        $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J25.gif&quot;; width= 300px; height=300px; style=&quot;display:block;&quot;/&gt;&#39;);
+		var audio = new Audio();
+              audio.src = &quot;sounds/baaam.mp3&quot;;
+           audio.play();
+       &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[일단 스터디가 끝나지 않았으니 스터디에 집중하자.-&gt;B_1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="11" name="N_6" tags="" position="6.666666666666666,483.66666666666663" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;아무도 없나요?\&quot;
+&quot;,&quot;\&quot;...\&quot;
+&quot;,&quot;누가 이런 상황에서 자원을 하겠어...
+&quot;,&quot;\&quot;제가 해볼게요!\&quot;
+&quot;,&quot;다른 스터디 조원이자 절친인 태연이가 손을 들면서 말을 했어.
+&quot;, &quot;\&quot;알겠습니다. &quot;,&quot;그럼 다음 발제는 두 분이 맡는걸로 할게요.&quot;,
+&quot;오늘 스터디는 여기서 마치겠습니다.\&quot;
+&quot;,&quot;내가 한다고 할 껄 그랬나...
+&quot;,&quot;스터디가 끝나고 청송씨와 태연이는 벌써부터 웃으며 이야기를 하며 나가는 모습이 보였어.
+&quot;,&quot;생각해보니까 청송씨랑 친해질 수 있는 기회였는데... &quot;,&quot;태연이는 벌써 청송씨랑 친해졌나보네. &quot;,&quot;내가 한다고 그냥 먼저 얘기할껄... &quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		          &lt;script&gt;
+		 audio2.pause();
+         &lt;/script&gt;
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)\
+		   [[다음 스터디 발제는 어떻게 됐을까?-&gt;N_7]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="12" name="B_1" tags="" position="400,720" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;카톡!\&quot;
+&quot;,&quot;아직 스터디 중. &quot;,&quot;내 핸드폰으로 카톡이 왔어.
+&quot;,&quot;청송씨인가? &quot;,&quot;아직 스터디도 안 끝났는데?
+&quot;,&quot;첫 갠톡인데...&quot;,&quot;뭐라고 왔을까? &quot;,&quot;떨려서 확인을 못하겠다!!
+&quot;,&quot;뭐라고 답장하지?
+
+&quot;,&quot;\&quot;안녕하세요 청송씨?\&quot;
+&quot;,&quot;너무 어색한가..?&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio = new Audio();
+              audio.src = &quot;sounds/katalk.wav&quot;;
+           audio.play();
+		   audio2.pause();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[아 몰라! 일단 카톡을 확인한다-&gt;B_1.1]]\
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="13" name="B_1.1" tags="" position="409,870" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot; &quot;,&quot;
+아 뭐야… &quot;,&quot;점주네… &quot;,&quot;일 시킬게 뻔한데… 
+&quot;,&quot;읽기 싫지만 나는 그래도 톡을 읽었어.&quot;,&quot;
+&quot;,&quot;
+으으... &quot;,&quot;역시나...&quot;,&quot;갑자기 짜증이 확 난다.
+&quot;,&quot;항상 제멋대로라니까...&quot;,&quot;아 오늘 창고정리까지 하고왔는데 어떻게 또 가...
+&quot;,&quot;근데 당장 다음달 월세비는 또 내야되고...
+&quot;,&quot;어떻게 하지?&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+        $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J6.jpg&quot;; width= 350px; height=60px; style=&quot;display:block;&quot;/&gt;&#39;);
+       &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 6)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+        $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J7.jpg&quot;; width= 350px; height=160px; style=&quot;display:block;&quot;/&gt;&#39;);
+		var audio1 = new Audio();
+              audio1.src = &quot;sounds/katalk.wav&quot;;
+           audio1.play();
+       &lt;/script&gt;
+         ]\
+         ]
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)\
+		   [[아 오늘 창고정리까지 하고 왔는데 어떻게 또 가. 오늘만은 대타 못 가!-&gt;B_2]]
+		   [[자본주의 사회… 못간다고 하면 짤리겠지… 당장 다음달 월세 생활비 내야 되니까 간다... 대타… -&gt;B_3]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="14" name="B_3" tags="" position="405,1015.3333333333334" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;하... &quot;,&quot;그래... &quot;,&quot;나는 미생이야 
+&quot;,&quot;아니지, &quot;,&quot;미생도 아니야
+&quot;,&quot;장그래는 인턴인데 나는 고작 알바생이라고...
+&quot;,&quot;
+이번에 안가면 짤리겠지...
+&quot;,&quot;당장 다음달 생활비도 없어서 답이 없는데...
+&quot;,&quot;가자...&quot;,&quot;그래 사장님 제가 지금 갑니다~~
+&quot;,&quot;
+&quot;,&quot;때 마침 스터디가 끝나고 청송씨가 내 쪽으로 걸어왔어. &quot;,&quot;괜히 심장이 두근거리는 것만 같아.&quot;,&quot; 혹시 발제 관련해서 얘기를 꺼내려는 건가?
+&quot;,&quot;\&quot;연희씨 혹시 지금 논의 좀 할까요?\&quot;
+&quot;,&quot;헐... &quot;,&quot;나한테 처음 개인적으로 말 거는거 같은데...
+&quot;,&quot;아 하필 오늘 대타 가야하냐고 아오
+&quot;,&quot;\&quot;아...&quot;,&quot;죄송한데 지금 급하게 가봐야 할 곳이 있어서요... &quot;,&quot;혹시 내일 하시는건 어떤가요?\&quot;
+&quot;,&quot;\&quot;그럼 그냥 카톡으로 준비 끝낼까요? &quot;,&quot;그렇게 질질 끌 만한 주제도 아닌데.\&quot;
+&quot;,&quot;\&quot;죄송해요... &quot;,&quot;그래도 될까요?
+&quot;,&quot;네. &quot;,&quot;자료조사 조금만 해서 보내주시면 제가 발제 내용 구성해보겠습니다.\&quot;
+&quot;,&quot;\&quot;아 감사하고 정말 죄송해요! &quot;,&quot;근데 제가 지금 가봐야해서...&quot;,&quot;그럼 카톡으로 연락드릴게요!\&quot;
+&quot;,&quot;하..&quot;,&quot;일생 일대의 기회를 놓친 기분이 들지만 &quot;,&quot;알바 안가면 내 돈줄을 놓치는거니까 간다..
+&quot;,&quot;으으 &quot;,&quot;지긋지긋해!&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[(어금니를 깨물고)느그 이븐믄 츰는드...-&gt;B_3.1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="15" name="N_7" tags="" position="16,786.6666666666666" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;이상으로 발제를 마치도록 하겠습니다.\&quot;
+&quot;,&quot;\&quot;짝짝짝\&quot;
+&quot;,&quot;
+&quot;,&quot;\&quot;오빠, &quot;,&quot;오빠 발표 진짜 잘한다!\&quot;
+&quot;,&quot;발제를 마치고 자리에 들어오는 청송씨에게 발표 파트너 태연이가 하이파이브를 하면서 말했어.
+&quot;, &quot;\&quot;아니야 다 태연이 너가 자료조사를 잘해준 덕분인걸\&quot;
+&quot;,&quot;다정하게 칭찬을 주고 받는 둘을 보고 있으니 나는 괜스레 속상해지는 것 같았어. 
+&quot;,&quot;그것도 잠시, &quot;,&quot;속상해질 틈도 없이 내 핸드폰으로 전화가 왔어.&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 1)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio = new Audio();
+              audio.src = &quot;sounds/Clapping.wav&quot;;
+           audio.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 6)[(if:$typewriterPos is 0)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/HighFive.mp3&quot;;
+           audio.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 9)[(if:$typewriterPos is 5)\
+         [\
+         &lt;script&gt;
+           var audio = new Audio();
+              audio.src = &quot;sounds/PhoneCall.mp3&quot;;
+           audio.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)\
+		   [[전화? 누구지?-&gt;N_8]]
+		   ]\
+           ]\
+         ]\
+   ]</tw-passagedata><tw-passagedata pid="16" name="N_8" tags="" position="30,1010.3333333333334" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;지이잉 지이잉\&quot;&quot;,&quot; &quot;
+,&quot;아... &quot;,&quot;왜 또...
+&quot;,&quot;\&quot;여보세요\&quot;
+&quot;,&quot;\&quot;야 연희야, 어제 마감 너였지? &quot;,&quot;왜 또 돈 마감한게 안맞아! &quot;,&quot;언제쯤 실수 안할래?\&quot;
+&quot;, &quot;전화를 받자마자 점주가 소리를 지르는 탓에 나는 핸드폰을 귀에서 살짝 땠어.
+&quot;,&quot;\&quot;어제 마감 점주님이 직접하셨는..\&quot;
+&quot;,&quot;\&quot;또 또 핑계댄다! &quot;,&quot;하여튼 일 못하는 사람들이 꼭 다른 사람 핑계댄다니까. &quot;,&quot;됐어. &quot;,&quot;끊어!\&quot;&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 4)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/PhoneGet.wav&quot;;
+           audio2.play();
+		   audio.pause();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 14)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio3 = new Audio();
+              audio3.src = &quot;sounds/PhoneEnd.mp3&quot;;
+           audio3.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[하아...-&gt;N_9]]
+		   ]\
+           ]\
+         ]\
+   ]</tw-passagedata><tw-passagedata pid="17" name="N_9" tags="" position="33.333333333333336,1212" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;톡톡\&quot;
+&quot;,&quot;하늘에서는 물이 떨어지는가 싶더니 갑자기 비가 쏟아졌어.
+&quot;,&quot;아 우산도 없는데...
+&quot;,&quot;쏟아지는 비를 맞으며 집에 오자마자 샤워를 하고 &quot;,&quot;대충 머리를 말린 후 침대로 풀썩 몸을 던졌어.
+&quot;,&quot;그 때 핸드폰 알림이 울렸어. 
+&quot;,&quot;\&quot;띠링\&quot;
+&quot;,&quot; 
+&quot;,&quot;그래..&quot;,&quot;일기나 써야지...&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/Rain1.wav&quot;;
+           audio1.play();
+		   audio3.pause();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 6)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/PhoneAlarm.mp3&quot;;
+           audio2.play();
+		 $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J10.jpg&quot;; width= 350px; height=100px; style=&quot;display:block;&quot;/&gt;&#39;);
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[다음-&gt;N_10]]
+		   ]\
+           ]\
+         ]\
+   ]</tw-passagedata><tw-passagedata pid="18" name="N_10" tags="" position="37.666666666666664,1391" size="100,100">&lt;img src=&quot;images/J22.jpg&quot; width=&quot;300&quot; height=&quot;200&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
+(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot; &quot;,&quot; &quot;,&quot;어떤 날보다 바빴던 하루
+&quot;,&quot;그 바쁨 속에도 나는 그대로였고
+&quot;,&quot;세상은 나없이도 잘 돌아간다.
+
+
+&quot;,&quot;Ending 1. &quot;,&quot;운수 나쁜 날
+&quot;,&quot; &quot;,&quot; &quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 70ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   
+		   
+		   [[만일 그때 다른 선택을 했더라면...-&gt;N_3.1]]
+		   [[아예 처음으로..-&gt;N_1.1]]
+		   [[제작 후기]]
+		   ]\
+           ]\
+         ]\
+   ]</tw-passagedata><tw-passagedata pid="19" name="B_3.1" tags="" position="401,1146" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;
+아 하루에 알바를 두 번이나 했다니… &quot;,&quot;이젠 끝이다!!!
+&quot;,&quot;   &quot;,&quot; &quot;,&quot;
+&quot;,&quot;아 맞네... &quot;,&quot;발제 준비 해야하는구나.. 
+&quot;,&quot;이건 밤샘 각이다...  &quot;,&quot;스벅 들러서 돌체라떼 벤티 사가야지
+&quot;,&quot;밤샘이니까~ &quot;,&quot;아이스 커피~ &quot;,&quot;밤샘엔~ &quot;,&quot;스벅 아이스~♬&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 2)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+        $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J9.jpg&quot;; width= 350px; height=170px; style=&quot;display:block;&quot;/&gt;&#39;);
+		var audio = new Audio();
+              audio.src = &quot;sounds/katalk.wav&quot;;
+           audio.play();
+       &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[어쩔 수 없이 밤새면서 자료조사를 하자...-&gt;B_4]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="20" name="B_4" tags="" position="398,1296" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;아!! &quot;,&quot;드디어 끝냈다!! &quot;,&quot;근데 다섯시네^^&quot;,&quot;
+&quot;,&quot;시험기간에도 밤은 안새는 내가 발제준비에 밤을 새다니...
+&quot;,&quot;청송씨랑 같이 하는거지&quot;,&quot; 아니었으면 대충 복붙해서 보내고 잤을거야…
+&quot;,&quot;청송,&quot;,&quot; 들리나요 내마음?
+&quot;,&quot;아냐 &quot;,&quot;그래도 나는 자료조사만 하는건데 이정도는 해야지...
+&quot;,&quot;자려고 누워서 핸드폰을 보니 알림이 와 있어.
+&quot;,&quot;  &quot;,&quot; &quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 11)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/PhoneAlarm.mp3&quot;;
+           audio2.play();
+		   $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J4.jpg&quot;; width= 350px; height=100px; style=&quot;display:block;&quot;/&gt;&#39;);
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[아 피곤해 죽겠는데 무슨 세줄일기야 오늘은 그냥 잘래! -&gt;B_5]]
+		   [[그래 오늘 열심히 살았으니 세줄정도는 쓰고 자자! -&gt;B_6]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="21" name="B_5" tags="" position="195,1075" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;...........
+&quot;,&quot;
+&quot;,&quot;\&quot;삐삐삐삑!\&quot;
+&quot;,&quot;아… &quot;,&quot;잠 든지 얼마나 됐다고 일어나야 되냐…
+&quot;,&quot;9시면...&quot;,&quot; 나 3시간 잤네? &quot;,&quot;아… &quot;,&quot;피곤해…
+&quot;,&quot;아니 내가 매일 하루에 네 다섯시간씩 자고,
+&quot;,&quot;오늘은 고작 3시간밖에 못자고 이렇게 사는데!!!
+&quot;,&quot;왜 나는 이렇게 열심히 살아야 되는거냐…
+&quot;,&quot;복세편살… &quot;,&quot;그거 가능하긴 한건가요?
+&quot;,&quot;이렇게 티도 안나게 열심히 살아서 뭐하냐… 
+&quot;,&quot;부질이 없다...&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 40ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 2)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/AlarmClock.wav&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[졸립지만 스터디 가기 -&gt;N_7]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="22" name="B_6" tags="" position="402,1487.3333333333335" size="100,100">&lt;img src=&quot;images/J27.jpg&quot; width=&quot;400&quot; height=&quot;420&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
+(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot; &quot;,&quot; &quot;,&quot;어떤 날보다 바빴던 하루
+&quot;,&quot;오늘 나의 하루는 지치기도 했지만
+&quot;,&quot;커튼 사이로 비치는 햇살이 이렇게 따뜻하네
+&quot;,&quot;창문으로 떠오르는 해를 보니 오늘 하루도 열심히 산 것 같다.&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 60ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[다음 날 아침 -&gt;B_6.1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="23" name="B_2" tags="" position="793,871" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;아 근데 어떻게 말씀드리지…
+&quot;,&quot;그래! &quot;,&quot;일단 미룰 수 없으니 일단 답장을 보내자... &quot;,&quot;
+&quot;,&quot;\&#39;사장님 정말 죄송하지만 오늘은 다른 일이 있어서 불가능해요ㅠㅠ 죄송합니다\&#39;
+&quot;,&quot;
+&quot;,&quot;하.. &quot;,&quot;내가 왜 죄송해야하는지 모르겠지만!!
+&quot;,&quot;죄송하다 죄송해!!!
+&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 3)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+		var audio1 = new Audio();
+              audio1.src = &quot;sounds/SmartPhoneTouch2.wav&quot;;
+           audio1.play();
+       &lt;/script&gt;
+         ]\
+         ]
+		 (if:$overNum is 5)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+        $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J8.jpg&quot;; width= 350px; height=240px; style=&quot;display:block;&quot;/&gt;&#39;);
+       &lt;/script&gt;
+         ]\
+         ]
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[다음-&gt;B_2.1.1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="24" name="B_7" tags="" position="392,1722" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;드디어 발제를 하는 날이 왔어.
+&quot;,&quot;
+&quot;,&quot;\&quot;이상으로 발제를 마치겠습니다. 감사합니다.\&quot;
+&quot;,&quot;망했어.
+&quot;,&quot;또 빠져버린것 같아.
+&quot;,&quot;청송... &quot;,&quot;당신은 대체...
+&quot;,&quot;\&quot;청송씨, 정말 고생 많으셨죠? &quot;,&quot;발제 해주신 거에 비해서 제가 드린 자료가 너무 부족했던 것 같아요..\&quot;
+&quot;,&quot;\&quot;아니에요. &quot;,&quot;연희씨 자료 덕분에 여러모로 정말 편했어요. &quot;,&quot;우리 함께 수고한거죠.\”
+&quot;,&quot;우리...&quot;,&quot;청송씨가 우리라고 했다...
+&quot;,&quot;청송과 내가 함께...
+&quot;,&quot;마음이 괜히 두둥실거리면서 입꼬리가 올라갔어.&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 3)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio = new Audio();
+              audio.src = &quot;sounds/Clapping.wav&quot;;
+           audio.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[너무 김칫국 마시는게 아닌가 모르겠네 ㅎㅎ -&gt;B_8]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="25" name="B_8" tags="" position="394,1905" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;이런 기분엔 소주 맥주 와인 샴페인 뭐든 한 잔 해줘야 하지만,
+&quot;,&quot;당장 다음주가 기말고사인 것을...
+&quot;,&quot;그리고 다다음주부터 기업들 공채시즌이라 자소서도 마무리해야돼...
+&quot;,&quot;\&quot;연희씨, &quot;,&quot;그럼 내일 뵈어요!\&quot; 
+&quot;,&quot;\&quot;네! &quot;,&quot;수고하셨습니다~\&quot;
+&quot;,&quot;이 행복을 안고~
+&quot;,&quot;내가 가야하는 곳은&quot;,&quot;
+&quot;,&quot;CU 알바라니...&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[알바를 하러가자... -&gt;B_8.1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="26" name="B_8.1" tags="" position="402,2049" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;
+&quot;,&quot;\&quot;삑!\&quot;
+&quot;,&quot;\&quot;감사합니다!\&quot;
+&quot;,&quot;\&quot;딸랑딸랑\&quot;
+
+&quot;,&quot;피크시간대에 몰려든 수많은 손님들을 상대한 뒤, &quot;,&quot;마지막 손님이 나가자 가게에는 정적이 찾아왔어.&quot;,&quot;
+
+&quot;,&quot;청송씨는 어떻게 그렇게 발표를 잘하지... &quot;,&quot;목소리도 좋고 아는 것도 많고...
+&quot;,&quot;그때 발표준비 잘 했다면서 머리는 왜 쓰다듬은거지?
+&quot;,&quot;평소에도 사람 머리를 잘 쓰다듬는 편인가?
+&quot;,&quot;나도 모르게 머릿속에 오늘 발표를 한 청송씨의 모습을 떠올리고 있었어.&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 1)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+           var audio = new Audio();
+              audio.src = &quot;sounds/Beep.wav&quot;;
+           audio.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 3)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/DoorBell.wav&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[청송씨는 지금쯤 뭐하고 있을까...? -&gt;B_8.2]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="27" name="B_8.2" tags="" position="403.3333333333333,2232" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;청송씨가 뭐하는지 궁금해지는 나는 청송씨 카카오톡 프로필을 찾았어.
+&quot;,&quot;아... &quot;,&quot;그러고 보니 오늘 발제를 잘 마무리 할 수 있었던 것도, &quot;,&quot;청송씨 덕이네... &quot;,&quot;저번에 다른 사람이랑 발제했을 때는 진짜 힘들었는데... &quot;,&quot;아무리 알바 때문이라지만 자료준비만한 건 좀 심했나...
+&quot;,&quot;발표도 잘 끝났고 알바 때문에 어쩔 수 없었지만 &quot;,&quot;괜히 청송씨한테 미안해지는 것 같았어. &quot;,&quot;동시에 고마운 마음도 있었고.
+&quot;,&quot;그래 고생했다고 톡이라도 보내야겠다.&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[뭐라고 톡을 보낼까? -&gt;C_1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="28" name="C_1" tags="" position="405,2429" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&#39;오늘 너무 고마웠어요... &quot;,&quot;사정이 있었다고 해도 발제 준비를 같이했어야 했는데 그러지 못해서 죄송해요. &quot;,&quot;나중에 제가 밥 한번 살게요!!\&#39;
+&quot;,&quot;전송 버튼을 누르려는 순간, &quot;,&quot;손가락이 멈췄어.
+&quot;,&quot;이렇게 갑자기 카톡을 해도 될까?
+&quot;,&quot;혹시 내가 이런식으로 다가가는데 부담감을 느끼진 않을까?
+&quot;,&quot;그래도 고마움은 표시해야겠는데..
+&quot;,&quot;어떡하지?&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		  (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+		var audio1 = new Audio();
+              audio1.src = &quot;sounds/SmartPhoneTouch3.wav&quot;;
+           audio1.play();
+       &lt;/script&gt;
+         ]\
+         ]
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[일단 고마움을 표시하자. 전송 버튼을 누르자.  -&gt;C_2]]
+		   [[이미 끝난 일인데 굳이 카톡을 보내야 할까? 작성한 내용을 지우자.   -&gt;D_1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="29" name="B_2.1" tags="" position="776,1324" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;네 그럼 그렇게 나눠요!\&quot;
+&quot;,&quot;\&quot;일단 오늘은 늦었으니까 이쯤 하고, &quot;,&quot;내일 각자 자료조사 해서 다시 뵐까요?\&quot;
+&quot;,&quot;\&quot;아...&quot;,&quot;그래도 될까요?\&quot;
+&quot;,&quot;\&quot;네 그럼요. &quot;,&quot;요즘 흉흉한 얘기가 도는 것 같더라구요. &quot;,&quot;어서 들어가시는게 맘 편하잖아요.\&quot;
+&quot;,&quot;뭐야... &quot;,&quot;벌써 나 걱정하는거 실화야?
+&quot;,&quot;오늘만 몇 번 치이는거냐
+&quot;,&quot;오빠 브레이크가 없는 8톤트럭이세요?
+&quot;,&quot;
+&quot;,&quot;\&quot;연희씨? 그럼 나갈까요? &quot;,&quot;대답이 없으셔서.\&quot;&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[벌써 두번째야! 정신차리고 청송씨한테 대답하자 -&gt;B_2.2]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="30" name="B_2.2" tags="" position="789,1661" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;아! &quot;,&quot;네네! &quot;,&quot;잠깐 다른생각하느라... &quot;,&quot;가요!\&quot;
+&quot;,&quot;\&quot;신촌역쪽으로 가시죠? &quot;,&quot;같이 가면 되겠네요.\&quot;
+&quot;,&quot;아 심장뛰는데... &quot;,&quot;얼굴도 빨개진 것 같은데...
+&quot;,&quot;\&quot;침착해...&quot;,&quot;그냥 방향이 같아서 같이 가는거잖아?
+&quot;,&quot;옆에 있는 사람 말고 다른생각 하자 다른생각
+&quot;,&quot;오늘 야식은 뭐 먹을지 생각하자!!
+&quot;,&quot;
+&quot;,&quot;\&quot;연희씨?\&quot;
+
+&quot;,&quot;\&quot;ㄴ...&quot;,&quot;네??\&quot;
+&quot;,&quot;\&quot;아...&quot;,&quot; 몇 번 불렀는데 답이 없으셔서... 
+&quot;,&quot;저는 이쪽으로 가야해서 가볼게요! &quot;,&quot;조심해서 들어가세요!\&quot;
+&quot;,&quot;\&quot;아 네네네!! &quot;,&quot;내일 뵙겠습니다!!
+&quot;,&quot;하... &quot;,&quot;티 난거 아니겠지?
+&quot;,&quot;나 되게 침착해보였겠지?
+&quot;,&quot;그렇게 두근거리는 며칠 후 &quot;,&quot;발제 날이 되었어.&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[청송씨 발제 보러가자 -&gt;B_2.3]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="31" name="B_2.3" tags="" position="811,2007" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;드디어 발제를 하는 날이었어.
+&quot;,&quot;
+&quot;,&quot;\“이상으로 발제를 마치겠습니다. 감사합니다.\”
+&quot;,&quot;망했다.
+&quot;,&quot;또 빠져버렸다.
+&quot;,&quot;청송... &quot;,&quot;당신은 대체...
+&quot;,&quot;\&quot;청송씨, 정말 고생 많으셨죠? &quot;,&quot;발제 해주신 거에 비해서 제가 드린 자료가 너무 부족했던 것 같아요..\&quot;
+&quot;,&quot;\&quot;아니에요. 연희씨 자료 덕분에 여러모로 정말 편했어요. &quot;,&quot;우리 함께 수고한거죠.\”
+&quot;,&quot;함께...&quot;,&quot;우리가 함께...
+&quot;,&quot;청송과 내가 함께...
+&quot;,&quot;마음이 괜히 두둥실거리면서 입꼬리가 올라갔어.&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 3)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio = new Audio();
+              audio.src = &quot;sounds/Clapping.wav&quot;;
+           audio.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[고단한 하루를 마쳤으니 집으로 가자 -&gt;B_2.4]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="32" name="C_3" tags="" position="806,2447.3333333333335" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;폰을 놓고 침대에 누웠는데도 잠이 오지 않았어. 
+&quot;,&quot;정신없었던 하루... &quot;,&quot;발제를 성공적으로 마친 청송씨의 모습... 
+&quot;,&quot;청송씨에 대한 복잡한 감정에 머릿속이 복잡했어.
+&quot;,&quot;아... &quot;,&quot;피곤한데 왜 잠이 안오지... &quot;,&quot;청송씨...&quot;,&quot;청송씨...&quot;,&quot;으아아ㅏㅏ
+&quot;,&quot;나는 책상 위의 스마트폰을 집어 습관적으로 세줄 일기 어플을 눌렀어.&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/LyingDown.mp3&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 9)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/PhonePick.mp3&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[오늘 있었던 일을 세 줄로 정리하자  -&gt;C_3.1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="33" name="C_2" tags="" position="594.6666666666666,2431.6666666666665" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;그래 고마운건 고맙다고 해야지!
+&quot;,&quot;나는 전송 버튼을 눌렀어. 
+&quot;,&quot;잠시 답장을 기다리다 어느새 알바 교대 시간이 됐어.
+&quot;,&quot;나중에 집갔을때쯤이면 답이 와있겠지...
+&quot;,&quot;집에 돌아와 씻고 나서 침대에 누워 채팅방을 다시 들어가봤지만 아직 숫자 1이 그대로야.
+&quot;,&quot;역시 괜히 보냈나? &quot;,&quot;아직 톡을 확인 안한건가?
+&quot;,&quot;아... 역시 오지랖부린거 같아... &quot;,&quot;아니 근데 이게 뭐라고 나는 이렇게 신경이 쓰이는거야!&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 1)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/SmartPhoneTouch.mp3&quot;;
+           audio2.play();
+		   $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J34.jpg&quot;; width= 350px; height=200px; style=&quot;display:block;&quot;/&gt;&#39;);
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[그냥 잊어버리고 잠이나 자자 -&gt;C_3]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="34" name="D_1" tags="" position="213,2435" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;에이 그래도 발제도 잘 마무리했는데 뭐. 
+&quot;,&quot;이미 지난 일인데 되돌아보지 말자... 
+&quot;,&quot;나는 썼던 내용을 쭉 지웠어.
+&quot;,&quot;그리고 퇴근 시간이 다 돼서 옷을 갈아 입으러 창고로 들어갔어.
+&quot;
+))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[창고로 들어가자.  -&gt;D_2]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="35" name="C_3.1" tags="" position="812.3333333333334,2632.3333333333335" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;세줄일기를 작성했어.
+&quot;,&quot;그래 &quot;,&quot;역시 머리 속 정리할 때는 일기가 최고야.
+&quot;,&quot;갑자기 다른 사람이 쓴 일기들도 읽어보고 싶다.&quot;,&quot;
+&quot;,&quot;\&#39;음... &quot;,&quot;어떤 검색어를 입력해보지?\&#39;&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 4)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+		   $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J21.jpg&quot;; width= 260px; height=400px; style=&quot;display:block;&quot;/&gt;&#39;);
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[설레는 게 최고! 연애로 검색해보자.-&gt;C_4]]
+		   [[코로나 때문에 여행도 못가는데 여행자로 검색해보자.-&gt;C_5]]
+		   [[귀여운 게 최고! 고양이 사진보고 힐링해야지 집사로 검색해보자.-&gt;C_6]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="36" name="Untitled Passage 2" tags="" position="994,2436" size="100,100"></tw-passagedata><tw-passagedata pid="37" name="C_4" tags="" position="596.6666666666667,2797" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot; &quot;,&quot; 
+&quot;,&quot;손잡고 걸을 사람 하나 없는 내게 달콤한 봄바람처럼 다가온 너 
+&quot;,&quot;카페인 때문일까 너의 폐인이 돼버린 걸까
+&quot;,&quot;하루 종일 머릿속에 네 미소만 보여
+&quot;,&quot;
+&quot;,&quot;마치 나의 이야기인 것 같아.
+&quot;,&quot;정신없이 바쁜 매일을 살아가는 내게 다가온 너.
+&quot;,&quot;내게도 봄바람이 다가와 있는 것 같아.
+&quot;,&quot;너와 좀 더 가까운 사이가 되고 싶어...
+&quot;,&quot;
+&quot;,&quot;다른 일기도 조금만 더 볼까?&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 45ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+		   $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J28.jpg&quot;; width= 360px; height=400px; style=&quot;display:block;&quot;/&gt;&#39;);
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[코로나 때문에 여행도 못가는데 여행자로 검색해보자.-&gt;C_5]]
+		   [[귀여운 게 최고! 고양이 사진보고 힐링해야지 집사로 검색해보자.-&gt;C_6]]
+		   [[이 정도면 충분한 것 같아. 이제 그만 자자. -&gt;J_1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="38" name="C_5" tags="" position="811,2863.666666666667" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot; &quot;,&quot; 
+&quot;,&quot;어디로 가든 괜찮다
+&quot;,&quot;어느 방향으로 가든 목적지에 도착할테니까
+&quot;,&quot;지금은 알바나 과제로 바쁘지만, &quot;,&quot;언젠가는 이 모든 경험들이 빛이 되겠지.
+&quot;,&quot;
+&quot;,&quot;힘들지만 즐겁게 앞으로 나아가자.
+&quot;,&quot;오늘하루도 고생했다, &quot;,&quot;나!
+&quot;,&quot;
+&quot;,&quot;고단했던 하루가 조금 가벼워진 느낌이 들었어.
+&quot;,&quot;다른 일기도 조금만 더 볼까?&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 45ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+		   $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J29.png&quot;; width= 360px; height=400px; style=&quot;display:block;&quot;/&gt;&#39;);
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[설레는 게 최고! 연애로 검색해보자.-&gt;C_4]]
+		   [[귀여운 게 최고! 고양이 사진보고 힐링해야지 집사로 검색해보자.-&gt;C_6]]
+		   [[이정도면 충분한 것 같아. 이제 그만 자자. -&gt;J_1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="39" name="C_6" tags="" position="1003.3333333333334,2790.6666666666665" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot; &quot;,&quot; 
+&quot;,&quot;집에 들어오면 문 앞에서 제일 먼저 반겨주는 코코
+&quot;,&quot;침대에 올려달라고 할 때 얼마나 사랑스러운지
+&quot;,&quot;사랑은 새삼 가까이에 있네
+&quot;,&quot;
+&quot;,&quot;집에 오면 반겨주는 누군가가 있다니
+&quot;,&quot;이 일기를 쓴 사람은 집에 올 때마다 행복하겠다...
+&quot;,&quot;내게도 이런 존재가 있었으면 좋을텐데..
+&quot;,&quot;
+&quot;,&quot;다른 일기도 조금만 더 볼까?&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 45ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+		   $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J32.jpg&quot;; width= 360px; height=400px; style=&quot;display:block;&quot;/&gt;&#39;);
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[설레는 게 최고! 연애로 검색해보자.-&gt;C_4]]
+		   [[코로나 때문에 여행도 못가는데 여행자로 검색해보자.-&gt;C_5]]
+		   [[이정도면 충분한 것 같아. 이제 그만 자자. -&gt;J_1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="40" name="J_1" tags="" position="799.3333333333334,3060" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;그래도 아까보다는 마음이 차분해지는 것 같아서 나는 스마트폰을 침대 머리맡에 내려 놓고 눈을 감았어.
+&quot;,&quot;청송씨도 나한테 마음이 있는걸까?
+&quot;,&quot;읽었던 세줄일기의 내용들이 내 마음속을 잔잔하게 간지럽히는 것처럼 &quot;,&quot;묘한 설레임이 느껴졌어.
+&quot;,&quot;
+&quot;,&quot;그때 침대 머리맡에 둔 내 폰이 울리기 시작했어.&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 35ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/LyingDown.mp3&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 5)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/PhoneCall.mp3&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[이 밤중에 누굴까? -&gt;J_1.1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="41" name="J_1.1" tags="" position="796,3202" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;절친 태연이네? &quot;,&quot;이밤중에 왜 전화한거지?
+&quot;,&quot;\&quot;안 자네? &quot;,&quot;나 고민 있어서 전화했어.\&quot;
+&quot;,&quot;\&quot;헐 &quot;,&quot;너도? &quot;,&quot;야 나도...&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 2)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/PhoneGet.wav&quot;;
+           audio1.play();
+		   audio2.pause();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[태연이 고민부터 들어주자  -&gt;J_2]]
+		   [[아니야. 이 심란한 마음, 내가 먼저 말하자 -&gt;J_4]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="42" name="J_2" tags="" position="609.9999999999999,3089" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;나 좋아하는 사람 생겼어...\&quot;
+&quot;,&quot;\&quot;뭐야. &quot;,&quot;전혀 몰랐어!\&quot;
+&quot;,&quot;\&quot;요즘 스터디 하면서 따로 연락하고 자주 만났는데... &quot;,&quot;아 몰라 &quot;,&quot;부끄러워.\&quot;
+&quot;,&quot;스터디? &quot;,&quot;갑자기 마음속이 불안해졌어.
+&quot;,&quot;\&quot;너 발표 도와주는 것도 그렇고 진짜 착한 것 같아.\&quot;
+&quot;,&quot;이럴 수가!! &quot;,&quot;나는 아무 말도 할 수 없었어.
+&quot;,&quot;\&quot;늦었으니까 내일 점심 먹을 때 자세히 말해줄게. &quot;,&quot;아 말하니까 후련하다.\”
+&quot;,&quot;\&quot;오키 내일 썰 풀어줘. &quot;,&quot;잘 자고 내일 봐.\&quot;&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[아... 안돼... -&gt;J_2.1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="43" name="J_4" tags="" position="1003,3200" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;두근두근. &quot;,&quot;마음이 터질 것 같았어.
+&quot;,&quot;\&quot;이태연. &quot;,&quot;듣고 놀라지마.\&quot;
+&quot;,&quot;\&quot;아 뭔데 이래.\&quot;
+&quot;,&quot;나 청송씨 좋아해!!\&quot;
+&quot;,&quot;말해버렸다. &quot;,&quot;근데 태연이 말이 없네?
+&quot;,&quot;
+&quot;,&quot;\&quot;스터디 회장 스윗남 청송씨?? &quot;,&quot;발제 준비하면서 뭐 있었어?\&quot;
+&quot;,&quot;\&quot;내가 알바 하느라 발표 준비할 때 항상 늦게 만났단 말이야.\&quot;
+&quot;,&quot;끝나고 집까지 데려다주고 &quot;,&quot;평소에 밥 잘 챙겨 먹으라고 기프티콘도 몇 번 보내줬어.\&quot;
+
+&quot;,&quot;다시 떠오르는 기억에 얼굴이 붉어지고 침대에서 발을 동동 굴렀어.&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[태연이는 뭐라고 말할까? -&gt;J_5]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="44" name="J_3" tags="" position="221.33333333333331,3243.666666666667" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;침대에 누워 습관처럼 세줄일기 앱에 들어갔어.
+&quot;,&quot;하... &quot;,&quot;지금 마음을 말로 표현하기 어렵네...
+&quot;,&quot;고민 끝에 오늘의 일기를 작성했어..
+&quot;,&quot;
+&quot;,&quot;좋아한다고 말하기가 무서워서 네 곁을 맴돌았던 난
+&quot;,&quot;결국 입 밖으로 말 한마디 꺼내지도 못했다.
+&quot;,&quot;타이밍이란..
+&quot;,&quot;
+&quot;,&quot;Ending2.&quot;,&quot; &quot;,&quot;잘못된 만남&quot;,&quot; &quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 45ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/LyingDown.mp3&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 4)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+		   $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J31.jpg&quot;; width= 360px; height=400px; style=&quot;display:block;&quot;/&gt;&#39;);
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[만일 그때 다른 선택을 했더라면...-&gt;J_1.1]]
+		   [[아예 처음으로..-&gt;N_1.1]]
+		   [[제작 후기]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="45" name="J_5" tags="" position="1003,3390.3333333333335" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;악 &quot;,&quot;내가 다 설레. &quot;,&quot;야 이건 100% 썸이야 &quot;,&quot;잘해봐!!!\”
+&quot;,&quot;\&quot;뭐만 하면 잘해보래ㅋㅋㅋ &quot;,&quot;그런 거 아니고 나 혼자 좋아하는 거야\”
+&quot;,&quot;\&quot;야 그만 생각해. &quot;,&quot;네 마음이 젤 중요하지\&quot;
+&quot;,&quot;\&quot;이미 그러고 있어\&quot;
+&quot;,&quot;\&quot;뭐?\&quot;
+&quot;,&quot;\&quot;이미 \&#39;그\&#39;&quot;,&quot;만 생각하고 있다고\&quot;
+&quot;,&quot;마음을 터놓고 말하니 마음이 더 간질간질한 것 같아.
+&quot;,&quot;나랑 청송씨랑...? &quot;,&quot;생각만 해도 부끄럽다. 흐흐&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[내가 생각해도 주접은 이 정도면 충분한 것 같다. 자러가자. -&gt;J_6]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="46" name="J_6" tags="" position="1004.6666666666666,3567.3333333333335" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;다음날 아침 일어나보니 스터디 단톡방이 시끄러웠어.
+&quot;,&quot;\&#39;청송이가 입원했대!\&#39;&quot;,&quot;
+&quot;,&quot;\&#39;뭐? 급성맹장염이라고??\&#39;
+&quot;,&quot;\&#39;진짜 큰일이다...\&#39;
+&quot;,&quot;가슴이 쿵 떨어지는 듯한 느낌이었어. 
+&quot;,&quot;맹장염이면 수술해야하는 건가? &quot;,&quot;죽는건 아니겠지?
+&quot;,&quot;생각이 많아진다. &quot;,&quot;어떡하지? &quot;,&quot;잠깐, &quot;,&quot;그럼 병문안을 가야하나?&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 1)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/katalk.wav&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 3)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/katalk.wav&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 4)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/Surprise.wav&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[까짓것 용기 내보자! 청송씨 병문안을 간다.  -&gt;D_4]]
+		   [[아직까지는 모르겠어. 병문안은 과한것 같아... -&gt;D_5]]
+		   [[병문안을 가기도 안가기도 애매한것 같아. 대신 기프티콘을 보내야겠다.  -&gt;D_6]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="47" name="D_4" tags="" position="991.6666666666666,3819" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;이럴 때가 아니지! &quot;,&quot;오늘은 뭘 입어야하지?
+&quot;,&quot;옷은 많은데 오늘따라 입을 옷이 없는 것 같이 느껴져.
+&quot;,&quot;나는 거울을 보고 소리지를뻔 했어.
+&quot;,&quot;얼굴에 뾰루지까지... &quot;,&quot;아 진짜! &quot;,&quot; 꼭 이러날에만 뾰루지가 나더라!
+&quot;,&quot;이럴 줄 알았으면 어제 밤에 팩이라도 하고 자는 거였는데!&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[마음에드는게 하나도 없는 것 같지만 그래도 병문안을 가보자  -&gt;D_7]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="48" name="D_5" tags="" position="703,3799" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;다음날이 되었지만, &quot;,&quot;아직도 마음 한켠이 계속 불편해.
+&quot;,&quot;아무리 생각해도 연락이라도 남겨야겠어...
+&quot;,&quot;청송이에게 전화를 해봐야 겠어.
+&quot;,&quot; !!
+&quot;,&quot;휴대폰에 손을 뻗는 순간, &quot;,&quot;전화가 왔어.
+&quot;,&quot;절친 태연이한테 온 전화네? &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 4)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/PhoneCall.mp3&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[전화를 받아보자.  -&gt;D_18]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="49" name="D_6" tags="" position="1234.6666666666667,3598.3333333333335" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;청송씨가 영하 15도에도 아이스아메리카노를 먹는 얼죽아라는게 생각이 났어.
+&quot;,&quot;이 정도가 과하지 않고 적당한 거겠지...?
+&quot;,&quot;청송이게게 간단한 안부인사와 아아 기프티콘을 보내고 잠이 들었어.
+&quot;,&quot;다음 날, &quot;,&quot;어김없이 알바를 마치고 지친 몸을 이끌고 집에 돌아왔어.
+&quot;,&quot;침대에 몸을 던졌는데, &quot;,&quot;마침 내 핸드폰이 울려.
+&quot;,&quot;응? &quot;,&quot;태연이네? &quot;,&quot;무슨 일이지...?&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 6)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/PhoneCall.mp3&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[전화를 받아보자 -&gt;D_18]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="50" name="D_18" tags="" position="1338,3802" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;태연아 무슨 일이야?\&quot;
+&quot;,&quot;연희야, 깨어있네?&quot;,&quot; 아무래도 너에게 먼저 알려줘야 할 것 같아서 전화했어...\&quot;
+&quot;,&quot;\&quot;알려줄 일?, &quot;,&quot;뭔데?\&quot;
+&quot;,&quot;태연이의 목소리가 왠지 무거워.&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/PhoneGet.wav&quot;;
+			  audio1.play();
+           audio2.pause();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[뭐지 이 찜찜함은? -&gt;D_19]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="51" name="D_19" tags="" position="1496,3803.3333333333335" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;어제 너와 전화를 마치고, &quot;,&quot;오늘 청송이가 걱정되어서 병문안을 갔는데...\&quot;
+&quot;,&quot;글쎄, &quot;,&quot;병문안을 마치고 나오려는데 오빠가 내 이름을 부르더라니까?\&quot;
+&quot;,&quot;오빠? &quot;,&quot;말은 언제 놓은거지...? &quot;,&quot;문득 며칠 전 태연이랑 청송씨랑 같이 얘기하면서 걸어가는 모습을 본게 떠올랐어.&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[불안하지만 태연이의 말을 계속 들어보자. -&gt;D_20]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="52" name="D_20" tags="" position="1496.3333333333333,3997" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;그러더니 글쎄, &quot;,&quot;오빠가 나에게 고백을 했어...\&quot;
+&quot;,&quot;\&quot;처음 나를 알게 되었을 때부터 계속 나한테 관심이 있었대...\&quot;
+&quot;,&quot;\&quot;난 진짜 몰랐거든? &quot;,&quot;내가 너무 갑작스럽고 너에게 미안해서 오빠한테는 우선 생각해보겠다고 했어...\&quot;
+&quot;,&quot;나도 진짜 난감하다 진짜...
+&quot;,&quot;\&quot;어떻하지? &quot;,&quot;연희야...\&quot;
+&quot;,&quot;갑자기 나의 머릿속이 하얘지면서 아무말도 할 수 없었어.&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 8)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/Thunder.wav&quot;;
+			  audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[다음 -&gt;D_21]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="53" name="D_21" tags="" position="1496,4202" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;내가 너무 망설였나? &quot;,&quot;도대체 어디서부터가 문제였던거지?
+&quot;,&quot;그래 오히려 잘됐어, &quot;,&quot;태연이밖에 내가 청송이에게 호감을 갖고 있다는 것을 알고 있는 사람은 없잖아...
+&quot;,&quot;그래 깔끔하게 포기하자...
+&quot;,&quot;어차피 연애할 생각도 아니었잖아... &quot;,&quot;내 주제에...
+&quot;,&quot;
+&quot;,&quot;연희야...? 
+&quot;,&quot;내가 한참동안 대답이 없었는지 태연이가 조심스럽게 나를 다시 불렀어.&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[일단 태연이와 통화를 계속하자 -&gt;D_22]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="54" name="D_22" tags="" position="1498,4407" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;으응 태연아 너 마음가는대로 해...”
+&quot;,&quot;\&quot;연희야... &quot;,&quot;진짜 괜찮아?\&quot;
+&quot;,&quot;\&quot;으응...\&quot;
+&quot;,&quot;\&quot;연희야... 
+&quot;,&quot;\&quot;아니야, &quot;,&quot;오늘은 늦었으니까 우선 얼른 자
+&quot;,&quot;\&quot;고마워 연희야, &quot;,&quot;너도 잘자...\&quot;
+&quot;,&quot;
+&quot;,&quot;나는 더 얘기하면 내 감정을 들킬 것 같아서 급하게 전화를 마무리해버렸어.&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 14)[(if:$typewriterPos is 4)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/PhoneEnd.mp3&quot;;
+			  audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[아... 안돼.. -&gt;D_23]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="55" name="D_23" tags="" position="1561.3333333333333,4571.666666666667" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;통화를 끊고, &quot;,&quot;나는 다시 침대에 쓰러졌어. &quot;,&quot;겉으로는 아무렇지 않은 척했지만 마음 한편이 저릿했어. 
+&quot;,&quot;아니야 청송이랑 나는 아무런 사이도 아니었는데 뭐… &quot;,&quot;태연이가 고백한 이상 더 이상 청송씨에게 다가갈 수 없어… &quot;,&quot;그치만, &quot;,&quot;그치만 태연이를 응원해주고 싶은데 그렇게 안될꺼 같아…
+&quot;,&quot;얼굴에서 땀인지 눈물인지 모르는 액체가 흐르는 것 같았어.
+&quot;,&quot;\&quot;흑흑…&quot;,&quot;흑... &quot;,&quot;으아아앙 엉엉엉엉&quot;,&quot;끄어어이어끅으ㅓㄱ억 꺽꺽 내가 흑, ㅊ,청송이 ㄴ..너 흑 어ㄹ마나 ㅈ,좋아 ㅇ 했는데&quot;,&quot;
+&quot;,&quot;이불킥을 백번정도하고 배개를 눈물로 적셔도 진정이 안되던 찰나 핸드폰 알림이 울렸어.
+&quot;,&quot; &quot;,&quot;
+&quot;,&quot;\&quot;내 손을 잡기는 무슨 바보같은 소리야 내 마음도 모르면서!!\&quot;&quot;,&quot;나는 빼액 소리를 지르려 했지만 하도 울어서 목소리도 안나왔어.
+&quot;,&quot;바보같은 세줄 일기의 알림을 보니 더 화가 나는 것 같았지만 &quot;,&quot;그래도 나는 세줄 일기 어플을 키고 짝사랑의 추억을 일기에 적기로 했어. 
+&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 14)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/PhoneAlarm.mp3&quot;;
+           audio2.play();
+		   $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J4.jpg&quot;; width= 360px; height=400px; style=&quot;display:block;&quot;/&gt;&#39;);
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[서러운 마음을 일기에 담아보자 -&gt;D_24]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="56" name="D_24" tags="" position="1532.6666666666665,4768.666666666666" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;침대에 누워 습관처럼 세줄일기 앱에 들어갔어.
+&quot;,&quot;하... &quot;,&quot;지금 마음을 말로 표현하기 어렵네...
+&quot;,&quot;고민 끝에 오늘의 일기를 작성했어..
+&quot;,&quot;
+&quot;,&quot;좋아한다고 말하기가 무서워서 네 곁을 맴돌았던 난
+&quot;,&quot;결국 입 밖으로 말 한마디 꺼내지도 못했다.
+&quot;,&quot;타이밍이란..
+&quot;,&quot;
+&quot;,&quot;Ending2.&quot;,&quot; &quot;,&quot;잘못된 만남&quot;,&quot; &quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 45ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/LyingDown.mp3&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 4)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+		   $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J31.jpg&quot;; width= 360px; height=400px; style=&quot;display:block;&quot;/&gt;&#39;);
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[만일 그때 다른 선택을 했더라면...-&gt;J_6]]
+		   [[아예 처음으로..-&gt;N_1.1]]
+		   [[제작 후기]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="57" name="D_16" tags="" position="715,4931.666666666666" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;함박눈이 내리고 있어.
+&quot;,&quot;
+오늘은 12월 24일. &quot;,&quot;청송이가 퇴원하는 날이야.
+&quot;,&quot;병원문을 열고 나오는 청송이가 보여.
+&quot;,&quot;
+&quot;,&quot;\&quot;오래 기다렸어?\&quot;
+&quot;,&quot;\&quot;아니, &quot;,&quot;방금 왔어. &quot;,&quot;몸은 좀 괜찮아?\&quot;
+&quot;,&quot;나야 쌩쌩하지! &quot;,&quot;아, 병원밥만 먹었더니 배가 고프네, &quot;,&quot;밥 먹으러 갈까?\&quot;
+&quot;,&quot;\&quot;좋아! &quot;,&quot;그럼 어디로 갈래?\&quot;
+&quot;,&quot;이런저런 이야기를 나누며 우리는 서로의 손을 잡고 눈이 쌓인 길을 걸어갔어.
+&quot;,&quot;크리스마스라서 그런지 상점가에서 캐롤송이 들려와.&quot;,&quot; &quot;,&quot;
+&quot;,&quot;청송이의 체온이 손을 통해 전해지고 있어.&quot;,&quot; &quot;,&quot;
+&quot;,&quot;겨울날 아침이지만, &quot;,&quot;전혀 추위가 느껴지지 않아. &quot;,&quot; &quot;,&quot;
+&quot;,&quot;앞으로 어떤 힘든일이 있어도 외롭거나 슬프지 않을 것 같아.&quot;,&quot; &quot;,&quot;
+&quot;,&quot;이제는 혼자가 아닌 둘이니까.
+&quot;,&quot;
+&quot;,&quot;이 순간을 일기에 남겨 계속 추억해야겠어.&quot;,&quot; &quot;,&quot; &quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 50ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 5)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/WalkAway.wav&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 14)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/RealEnding.mp3&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   &lt;img src=&quot;images/J32.png&quot; width=&quot;480&quot; height=&quot;700&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
+		   [[12월 24일의 일기-&gt;D_25]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="58" name="D_7" tags="" position="1005,3967" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;버스에 올라타 청송씨에게 무슨 말을 해야할까 고민하다 보니 어느새 병원에 도착했어.
+&quot;,&quot;청송씨가 입원한 병실이 1224호라고 했나?
+&quot;,&quot;나는 떨리는 마음을 안고 천천히 병실 문을 열었어.
+&quot;,&quot;1224호 병실 창문너머로 창가에서 햇볕을 받고 있는 청송씨의 옆 모습이 보였어.
+&quot;,&quot;와 저 콧대 봐... &quot;,&quot;아프고 수술하고나서도 잘생긴거 실환가?
+&quot;,&quot;콩닥 콩닥거리는 내 마음아 진정해!! &quot;,&quot;후~&quot;,&quot;하~&quot;,&quot;후~&quot;,&quot;하~&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 2)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/HospitalDoor.wav&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[마음을 진정시키고 병실 안으로 들어간다. -&gt;D_8]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="59" name="D_25" tags="" position="892.6666666666666,5093.333333333333" size="100,100">&lt;img src=&quot;images/J35.jpg&quot; width=&quot;400&quot; height=&quot;420&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
+(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;책의 귀퉁이를 접듯이 오늘 시간의 한 부분을 접고 싶다.
+&quot;,&quot;언젠가 다시 펴볼 수 있도록.
+&quot;,&quot;설레는 코끝에 이 떨림 잊고 싶지 않다.
+&quot;,&quot;
+&quot;,&quot;Ending3.&quot;,&quot; &quot;,&quot;화이트 크리스마스&quot;,&quot; &quot;,&quot; &quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 85ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[다시하기-&gt;N_1.1]]
+		   [[제작 후기]]
+		   &lt;a href=&quot;https://play.google.com/store/apps/details?id=kr.co.dany.threelinediary&amp;hl=ko&quot; target=_blank&gt;세줄일기를 쓰러 가고 싶다면?&lt;/a&gt;
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="60" name="D_8" tags="" position="1006,4137" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot; &quot;,&quot;\&quot;어?&quot;,&quot;연희야 웬일이야?\&quot;
+&quot;,&quot;반말? &quot;,&quot;말을 놓은 기억이 없는데...
+&quot;,&quot;그 사이 우리사이가 더 가까워진건가?
+&quot;,&quot;이렇게 생각하니 마음이 한층 더 두근거리는 것 같아.
+&quot;,&quot;말을 편하게 해야하는거야, &quot;,&quot;말아야 하는거야?
+&quot;,&quot;그나저나 날달걀을 마셨나, &quot;,&quot;청송씨는 이 와중에도 목소리까지 멋있는 동굴음이지?&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/HospitalWalk.wav&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[말을 편하게 한다. -&gt;D_10]]
+		   [[청송이에게 서로 말을 놓기로 했었는지 물어본다. -&gt;D_11]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="61" name="D_10" tags="" position="1005,4337" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;오빠 입원했다고 들어서 왔지!\&quot;
+&quot;,&quot;\&quot;저번에 발제 같이 할 때 도와준것도 고맙다고 제대로 말도 못한것도 있고...\&quot;
+&quot;,&quot;\&quot;오~~~ &quot;,&quot;이연희!&quot;,&quot; 너 조금 감동이다? &quot;,&quot;역시 스터디 동기사랑인가?\&quot;
+&quot;,&quot;\&quot;뭐래~ &quot;,&quot;칠칠치 못하게 공채도 얼마 안남은 시점에 몸관리 못해서 아픈 우리 회장, &quot;,&quot;혼내러 왔거든?\&quot;
+&quot;,&quot;오늘따라 청송이 앞에서 더 요동치는 마음을 진정시키기 위해 나는 일부러 너스레를 떨었어.
+&quot;,&quot;
+&quot;,&quot;청송이와 이런저런 이야기를 나누다보니 &quot;,&quot;어느새 1시간이 훌쩍 지나버렸어&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[앗.. 시간이? -&gt;D_9]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="62" name="D_11" tags="" position="1201,4292" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;병문안 왔지...&quot;,&quot;요?\&quot;
+&quot;,&quot;청송씨가 나를 보고 가벼운 웃음을 터트리더니 말했어.
+&quot;,&quot;\&quot;우리 말 편하게 할래 연희야?\&quot;
+&quot;,&quot;우리? &quot;,&quot;무슨 사이를 말하는거지?&quot;,&quot; 혹시 청송이도 나에게 썸타고 있었나?
+&quot;,&quot;김칫국 먼저 마시지 말자... &quot;,&quot;자연스럽게 말하는 거야!
+&quot;,&quot;또 다시 두근거리는 마음을 진정시키고 나는 말을 이어나갔어.&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[&quot;그래!&quot; -&gt;D_10]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="63" name="D_9" tags="" position="995,4508.333333333333" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;어느새 1시간이 훌쩍 지났네? &quot;,&quot;이제 슬슬 가봐야겠다.\&quot;
+&quot;,&quot;\&quot;연희야, &quot;,&quot;좀만 더 있다가지 않을래?\&quot;
+
+&quot;,&quot;청송이가 옷깃을 잡으면서 말하자 기껏 안정시켜 놓았던 마음이 다시 뛰기 시작했어.
+&quot;,&quot;콩닥거리는 마음을 청송이에게 들킬까봐 나는 빨리 자리에서 일어났어.
+&quot;,&quot;\&quot;오빠! &quot;,&quot;나 알바가야하거든? &quot;,&quot;마지막까지 몸 관리 잘하고, 내일 퇴원 잘해!!\&quot;
+&quot;,&quot;인사를 마치고 병실 문을 열라는 찰나에 등 뒤에서 들리는 청송이의 다급한 목소리가 들렸어.&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 35ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 4)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/HeartBeat1.mp3&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 5)[(if:$typewriterPos is 20)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/StandUp.mp3&quot;;
+           audio2.play();
+		   audio1.pause();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[연희야! -&gt;D_12]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="64" name="D_12" tags="" position="993,4655" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;나는 깜짝 놀라 뒤를 돌아 청송이를 바라봤어.
+
+&quot;,&quot;\&quot;왜?\&quot;
+&quot;,&quot;\&quot;퇴원수속을 보호자가 필요하다고 하는데 &quot;,&quot;부모님이 지방에 사셔서,\&quot;
+&quot;,&quot;\&quot;미안한데 혹시 내일도 볼 수 있을까, &quot;,&quot;우리?\&quot;
+
+&quot;,&quot;겨우 부여잡던 심장을 난 더 이상 컨트롤 할 수 없었고, &quot;,&quot;난 나의 마음이 이끄는대로 말했어.
+&quot;,&quot;\&quot;당연하지! &quot;,&quot;내일 퇴원할 때 보자 우리!\&quot;
+&quot;,&quot;
+&quot;,&quot;병원을 나오자 겨울공기가 차가웠지만 하늘은 그 어느 때보다 맑고 청명했어.
+&quot;,&quot;다음날 아침 &quot;,&quot;난 그 어느때보다 빠른 발걸음으로 병원으로 향했어.&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 6)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/HeartBeat2.wav&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 10)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           audio1.pause();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 12)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/RunningStep.wav&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[얼른 청송이 병실로 가보자 -&gt;D_13]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="65" name="D_13" tags="" position="883.3333333333334,4802" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;\&quot;연희야 바쁠텐데 와줘서 고마워.\&quot;
+&quot;,&quot;\&quot;고맙긴 뭘... 
+&quot;,&quot;겉으로는 아무렇지도 않다는 듯이 대답했지만 심장이 쿵쾅거린다.
+&quot;,&quot;그때 청송이가 내 손을 잡고 내 눈을 보면서 말했어.
+&quot;,&quot;
+&quot;,&quot;\&quot;연희야, &quot;,&quot;어젯밤 너가 가고나서 생각했어.\&quot;
+&quot;,&quot;
+&quot;,&quot;\&quot;너가 오늘 내 보호자를 해준 것처럼, &quot;,&quot;나도 앞으로 네 곁에서 너를 지켜주고 싶어\&quot;
+&quot;,&quot;청송이를 보면서 나는 수줍게 고개를 끄덕였어.
+&quot;,&quot;청송이의 손을 잡고 &quot;,&quot;우린 서로를 마주보았어.
+&quot;,&quot;가슴의 떨림이 멈추지 않아.
+&quot;,&quot;이 순간이 언제까지고 계속되었으면..
+&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 1)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/HeartBeat2.wav&quot;;
+           audio1.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[며칠 뒤..-&gt;D_16]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="66" name="d" tags="" position="1219,812" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="67" name="B_2.1.1" tags="" position="798,1063" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;답장을 고민하는 순간 마침 스터디가 끝나고 청송씨가 내 쪽으로 걸어왔어.
+&quot;,&quot;발제 관련해서 얘기를 꺼내려는 건가?
+&quot;,&quot;\&quot;연희씨 지금 시간 괜찮으시면 발제 준비 시작할까요?\&quot;
+&quot;,&quot;\&quot;네? &quot;,&quot;네네!\&quot;
+
+&quot;,&quot;아 사실 준비 안됐는데...
+&quot;,&quot;하필 알바 끝나고 바로 와서 초췌한 상태라니...
+&quot;,&quot;\&quot;평소에 제가 부동산에 관심이 많아서 종부세, 양도세 관련 부분은 걱정 안해도 될거예요.\&quot;
+&quot;,&quot;헐...&quot;,&quot;뭐야... &quot;,&quot;준비된 남자...
+&quot;,&quot;아 이연희 앞으로 집걱정은 없겠다 ^^
+&quot;,&quot;아니 이게 아니지
+&quot;,&quot;\&quot;아... 다행이에요! &quot;,&quot;제가 그 분야는 잘 몰라서...&quot;,&quot;혹시 저는 어떤 부분 맡으면 될까요?\&quot;
+&quot;,&quot;\&quot;정권별 부동산 대책 변화를 정리해주실 수 있을까요?
+&quot;,&quot;저는 정책의 경제적인 원리와 효과 측면을 맡으면 어떨까 하는데.\&quot;
+&quot;,&quot;미쳤다..&quot;,&quot;완벽해...
+&quot;,&quot;역시 나 남자 보는 눈 있다니까? &quot;,&quot;계속 보기만 해서 그렇지만...
+&quot;,&quot;잠깐 근데 지금 청송씨가 뭐 물어본거 아니야?&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		(if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+		var audio1 = new Audio();
+              audio1.src = &quot;sounds/ManWalk.wav&quot;;
+           audio1.play();
+       &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[행복회로 그만 돌리고 청송씨에게 대답하자 -&gt;B_2.1]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="68" name="B_2.4" tags="" position="795,2222" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;취준 스터디를 마치고 집으로 가는 길.&quot;,&quot; 오랜만에 발걸음이 가벼워.
+&quot;,&quot;아까 자료 준비 잘 했다면서 머리는 왜 쓰다듬은 걸까?
+&quot;,&quot;평소에도 다른 사람 머리를 잘 쓰다듬는 편인가?
+&quot;,&quot;이런 저런 생각을 하며 걷다보니 금새 집에 도착했어.
+&quot;,&quot;씻고 침대에 누워 창문 밖을 바라보았어.
+&quot;,&quot;자기 전 창문 밖의 하늘을 보니 오늘따라 하늘의 별도 더 반짝이는 것 같아.
+&quot;,&quot;이런 게 썸타는 느낌인가...&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio = new Audio();
+              audio.src = &quot;sounds/NightBGM.mp3&quot;;
+           audio.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 4)[(if:$typewriterPos is 23)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/CloseDoor.mp3&quot;;
+           audio2.play();
+		   audio.pause();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[폰을 내려놓고 잠을 청하자 -&gt;C_3]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="69" name="D_2" tags="" position="198.33333333333334,2617.333333333333" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;겉옷을 벗던 중, &quot;,&quot;갑작스럽게 가슴에 통증이 왔어!.
+&quot;,&quot;억...!
+&quot;,&quot;바닥에 넘어졌어.
+&quot;,&quot;숨을 헐떡이는 나에게 환청이 들려와.
+&quot;,&quot;\&#39;이걸 고맙다고 안하고 넘어간다고? 미친거 아냐?\&#39;
+&quot;,&quot;\&#39;너는 정말 양심에 털이 났구나\&#39;
+&quot;,&quot;...! &quot;,&quot;내 양심에서 들려오는 소리?!
+&quot;,&quot;양심의 말이 맞아. &quot;,&quot;청송이에게 고맙다고 말했어야 했어.
+&quot;,&quot;그저 지난 일이라고 그냥 넘어가려 하다니...
+&quot;,&quot;나는 연애를 할 자격이 없어.
+&quot;,&quot;아니, &quot;,&quot;연애를 운운하기 이전에 인간이 맞을까?
+&quot;,&quot; &quot;,&quot;
+Ending4.&quot;,&quot; &quot;,&quot;양심의 털&quot;
+,&quot; &quot;,&quot; &quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+		var audio1 = new Audio();
+              audio1.src = &quot;sounds/ClothOff.mp3&quot;;
+           audio1.play();
+       &lt;/script&gt;
+         ]\
+         ]
+		 (if:$overNum is 3)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+		var audio1 = new Audio();
+              audio1.src = &quot;sounds/FallDown.mp3&quot;;
+           audio1.play();
+       &lt;/script&gt;
+         ]\
+         ]
+		 (if:$overNum is 5)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+		var audio1 = new Audio();
+              audio1.src = &quot;sounds/HeartBeat1.mp3&quot;;
+           audio1.play();
+       &lt;/script&gt;
+         ]\
+         ]
+		 (if:$overNum is 7)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+           audio1.pause();
+       &lt;/script&gt;
+         ]\
+         ]
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[만일 그때 다른 선택을 했더라면...-&gt;C_1]]
+		   [[아예 처음으로..-&gt;N_1.1]]
+		   [[제작 후기]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="70" name="제작 후기" tags="" position="1075,5222.666666666667" size="100,100">플레이 해주셔서 진심으로 감사드립니다!
+각 팀원들의 후기
+조남웅
+팀장으로서 가장 멋진 경험은 좋은 팀원들과 일하는 것이라고 생각하는데, 그런면에서 지난 3주는 제가 경험한 가장 멋진 시간이었습니다.
+
+김지나
+상호작용 스토리 콘텐츠를 만들어 스타트업의 마케팅에 직접 제안을 할 수 있는 값진 경험이었습니다. 배울점이 많은 팀원들과 함께 작품을 만들 수 있어 행복했습니다!
+
+김보미
+단기간에 멋진 프로젝트를 수행할 수 있어서 정말 좋았습니다. 각자 장점이 뚜렷한 팀원들과 함께할 수 있어서 가능했다고 생각합니다!
+
+양동연
+누군가에게 잊지 못할 이야기를 전달해볼 수 있는 값진 경험을 할 수 있었습니다. 무엇보다도 3주동안 밤낮으로 살신성인의 자세로 작품활동에 임원 조원들 너무 감사합니다!
+
+이병재
+팀이 해체되는 등 다양한 우여곡절이 있었지만, 좋은 사람들을 만나 극복해낼 수 있었습니다. 제 역할을 다해준 팀원들 너무 고맙고, 이런 좋은 수업을 진행해주신 교수님 감사드립니다!
+
+&lt;a href=&quot;https://bit.ly/2020ISD&quot; target=_blank&gt;설문조사 참여 부탁드립니다!!&lt;/a&gt;</tw-passagedata><tw-passagedata pid="71" name="N_1.1" tags="" position="568,19" size="100,100">&lt;img src=&quot;images/J1.png&quot; width=&quot;500&quot; height=&quot;250&quot; alt=&quot;이미지를 못 읽어올 때 표시되는 텍스트&quot;&gt;
+&lt;script&gt;
+audio2.pause();
+&lt;/script&gt;
+[[시작하기 -&gt;N_1]]</tw-passagedata><tw-passagedata pid="72" name="N_3.1" tags="" position="166.66666666666657,267.50000000000006" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;스터디실에 들어가자 큰 키에 하얀 피부, 오똑한 코에 잘 생긴 모습이 눈에 들어왔어.
+&quot;,&quot;이 사람의 이름은 김청송.  &quot;,&quot;내가 하고 있는 취업 스터디장이야.
+&quot;,&quot;아... &quot;,&quot;역시 청송씨 덕분에 스터디 왔다...
+&quot;,&quot;연애할 틈이 없다고는 말했지만 &quot;,&quot;스터디를 같이하다보니 차분하고 책임감 있게 스터디를 이끌어가는 모습에 자꾸 눈이 가더라고.
+&quot;,&quot;청송씨의 뒷자리가 비어있어서 나는 그 뒤에 얼른 앉았어.
+&quot;, &quot;셔츠가 등에 달라붙어서 등 모양이 보이는게 원래 이렇게 섹시한건가...
+&quot;,&quot;정신차리자 연희야... &quot;,&quot;너 막학기야... &quot;,&quot;취준은 어쩌려고!!
+&quot;,&quot;나는 고개를 절래절래 저으며 정신을 차렸어.
+&quot;,&quot;\&quot;그러면 다음 주 발제자를 정할게요. &quot;,&quot;한번씩 다 해서 혹시 자원하실 분 있나요? &quot;,&quot;두명 정도면 적당할 것 같아요\&quot;
+&quot;,&quot;\&quot;제가 할게요!\&quot;&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+         (if:$overNum is 0)[(if:$typewriterPos is 1)\
+         [
+         &lt;script&gt;
+		 audio1.pause();
+           var audio1 = new Audio();
+              audio1.src = &quot;sounds/Runningstep2.wav&quot;;
+           audio1.play();
+		   var audio2 = new Audio();
+              audio2.src = &quot;sounds/CrowdSound.mp3&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 7)[(if:$typewriterPos is 20)\
+         [
+         &lt;script&gt;
+           var audio = new Audio();
+              audio.src = &quot;sounds/SitDown.wav&quot;;
+           audio.play();
+		   &lt;/script&gt;
+         ]\
+         ]\
+		 
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)\
+		   [[발표를 지원하다니 누구지? -&gt;N_3.2]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="73" name="N_3.2" tags="" position="294.6666666666667,403.3333333333333" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;앞에 앉은 청송씨가 자연스럽게 손을 들면서 말했어.
+&quot;,&quot;역시 청송씨... &quot;,&quot;믿음직스럽다.
+&quot;,&quot;잠시만.. &quot;,&quot;나도 발제를 자원하면...&quot;,&quot; 청송씨랑 단 둘이 친해질 수 있는 절호의 찬스?!&quot;,&quot;
+&quot;,&quot;하지만 주제도 어려워보이고 &quot;,&quot;사실 내가 제일 싫어하는게 발표야...
+&quot;,&quot;다들 눈치만 보고 청송이 외에는 지원하는 사람이 없는데...
+&quot;,&quot;어쩌지!!&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 20ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[에잇 몰라 일단 하고보는거지 뭐! 발표를 자원하자. -&gt;N_4]]
+		   [[아 그래도 발표는 너무 싫은데... 이럴 땐 사다리타기가 답이지!-&gt;N_5]]
+		   [[아무리 청송이랑 같이하는 거라지만 끔찍한 발제를 두번씩이나 할 수는 없어. 이럴 땐 숨죽은 듯이 조용히 있는게 최고야...  -&gt;N_6]]\
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="74" name=" N_3.1" tags="" position="1543.0000000000002,569.6666666666666" size="100,100"></tw-passagedata><tw-passagedata pid="75" name="B_6.1" tags="" position="488.33333333333314,1592.5" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot; 
+&quot;,&quot;\&quot;삐삐삐삑\&quot;
+&quot;,&quot; 아~! &quot;,&quot;벌써 일어날 시간이네... &quot;,&quot;조금만 더 자고 싶은데...
+&quot;,&quot;나는 눈을 비비며 기지개를 키고 일어나서 
+&quot;,&quot;핸드폰에 어제 쓰고 잔 일기를 다시 읽어봤어.
+&quot;,&quot;아 그래도 그 와중에 어제 일기도 쓰고 자고 어제를 잘 마무리 했구나! 
+&quot;,&quot;내 자신 칭찬해!! &quot;,&quot;잠도 조금 깬 것 같다ㅎㅎ&quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 60ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 1)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/AlarmClock.wav&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[오늘도 열심히 수업듣고 알바갔다가 스터디하러 가기 -&gt;B_7]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata><tw-passagedata pid="76" name="J_2.1" tags="" position="404.9999999999999,3082.3333333333335" size="100,100">(set: $typewriterPos to 1)\
+(set:$overNum to 0)\
+(set: $textNum to 1)\
+(set: $overNumCount to 0)\
+(set: $scriptA1 to (a: &quot;통화를 끊고, &quot;,&quot;나는 다시 침대에 쓰러졌어. &quot;,&quot;겉으로는 아무렇지 않은 척했지만 마음 한편이 저릿했어. 
+&quot;,&quot;아니야 청송이랑 나는 아무런 사이도 아니었는데 뭐… &quot;,&quot;태연이가 고백한 이상 더 이상 청송씨에게 다가갈 수 없어… &quot;,&quot;그치만, &quot;,&quot;그치만 태연이를 응원해주고 싶은데 그렇게 안될꺼 같아…
+&quot;,&quot;얼굴에서 땀인지 눈물인지 모르는 액체가 흐르는 것 같았어.
+&quot;,&quot;\&quot;흑흑…&quot;,&quot;흑... &quot;,&quot;으아아앙 엉엉엉엉&quot;,&quot;끄어어이어끅으ㅓㄱ억 꺽꺽 내가 흑, ㅊ,청송이 ㄴ..너 흑 어ㄹ마나 ㅈ,좋아 ㅇ 했는데&quot;,&quot;
+&quot;,&quot;이불킥을 백번정도하고 배개를 눈물로 적셔도 진정이 안되던 찰나 핸드폰 알림이 울렸어.
+&quot;,&quot; &quot;,&quot;
+&quot;,&quot;\&quot;내 손을 잡기는 무슨 바보같은 소리야 내 마음도 모르면서!!\&quot;&quot;,&quot;나는 빼액 소리를 지르려 했지만 하도 울어서 목소리도 안나왔어.
+&quot;,&quot;바보같은 세줄 일기의 알림을 보니 더 화가 나는 것 같았지만 &quot;,&quot;그래도 나는 세줄 일기 어플을 키고 짝사랑의 추억을 일기에 적기로 했어. 
+&quot;,&quot; &quot;))\
+(set: $endLine to $scriptA1&#39;s length)\
+   |typewriterOutput&gt;[]\
+   (live: 30ms)[\
+         (if:$overNum is $overNumCount)[\
+         (set: $typeText to $scriptA1&#39;s $textNum)\
+		 (if:$overNum is 1)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/BedLying.mp3&quot;;
+           audio2.play();
+         &lt;/script&gt;
+         ]\
+         ]\
+		 (if:$overNum is 14)[(if:$typewriterPos is 1)\
+         [\
+         &lt;script&gt;
+           var audio2 = new Audio();
+              audio2.src = &quot;sounds/PhoneAlarm.mp3&quot;;
+           audio2.play();
+		   $(&#39;tw-hook&#39;).append(&#39;&lt;img src=&quot;images/J4.jpg&quot;; width= 360px; height=140px; style=&quot;display:block;&quot;/&gt;&#39;);
+         &lt;/script&gt;
+         ]\
+         ]\
+           (append: ?typewriterOutput)[(print: $typeText&#39;s $typewriterPos)]\
+           (set: $typewriterPos to it + 1)\
+           (if: $typewriterPos is $typeText&#39;s length + 1)[\
+           (set:$overNum to it + 1)\
+           (display:&quot;WaitingQue&quot;)\
+		   (if: $overNum is $endLine)[\
+		   (stop:)
+		   [[서러운 마음을 일기에 담아보자 -&gt;J_3]]
+		   ]\
+           ]\
+         ]\
+   ]\
+</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
